@@ -1,0 +1,161 @@
+
+<!doctype html>
+<html lang="en" class="h-100">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Jenga Nasisi">
+<meta name="author" content="Jenga Nasisi">
+<meta name="generator" content="">
+<title> Congratulation | JengaNasisi</title>
+<link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+  
+<!-- Bootstrap core CSS -->
+
+<link href="../assets/css/bootstrap.min.css" rel="stylesheet" >
+<link href="../assets/css/owl.carousel.min.css" rel="stylesheet" >
+<link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" >
+<link href="../assets/css/custom.css" rel="stylesheet" >
+<link href="assets/css/reseller.css" rel="stylesheet" >
+<link href="../assets/css/animate.css" rel="stylesheet" >
+<link href="../assets/css/font-awesome.min.css" rel="stylesheet" >
+<link href="../assets/css/feather.min.css" rel="stylesheet" >
+<link href="../assets/css/select2.min.css" rel="stylesheet" >
+<link href="../assets/css/dataTables.bootstrap4.min.css.min.css" rel="stylesheet" >
+<link href="../assets/css/jquery.dataTables.min.css" rel="stylesheet" >
+<link href="../assets/css/flag.css" rel="stylesheet" >
+<link href="../assets/css/range-slider.css" rel="stylesheet" >
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="../assets/css/bootstrap-datepicker.min.css" rel="stylesheet" >
+
+</head>
+<body class="d-flex flex-column h-100">
+
+  <!-- top header-->
+ 
+  
+  <header class="header header-two header-reseller">
+  <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark ">
+      <div class="container-fluid">
+        <div class="row row-100 col-header">
+          <div class="col-lg-4 col-12 col-30">
+              <a class="navbar-brand smoth-scroll" href="index.html"><img src="../assets/images/logo.png" alt="" /></a>
+          </div>
+          <div class="col-lg-8 col-12 col-70">
+              <button class="navbar-toggler"  id="menu-open" type="button" >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse1 navbar-collapse sidenav-new-menu" id="mySidenav2">
+                  <a href="javascript:void(0)" class="closebtn" id="menu-closed">&times;</a>
+                  <div class="mobile-menu">
+                          <!-- cloned -->
+                          <div class="account-links">
+                            <ul>
+                              <li><a href="#" >Faq</a></li>
+                              <li><a href="#" >About Us</a></li>
+                              <li><a href="#" >Customer Service</a></li>
+                              <li><a href="#" >Get Strated</a></li>
+                              <li><a href="#" >Go to Home</a></li>
+                            </ul>
+                          </div>
+                       
+                      </div>              
+                </div>
+                <div id="cd-shadow-layer" class="menu-closed" style="display: none;"></div>
+            </div>
+          </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- header end -->
+
+
+<!-- Begin page content -->
+<main role="main" class="flex-shrink-0 middle-section reseller-main">
+  <div class="middle-inner">
+
+    <section class="seller-registraion-section">
+      <div class="seller-registraion-inner">
+        <div class="container">
+
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="seller-heading">
+              <h2>Congratulation!</h2>
+              <p>Your vendor profile is successfully created.</p>
+            </div>
+          </div>
+        </div>
+        
+
+        <!-- tabs -->
+        <div class="row">
+          <div class="col-lg-12">
+       
+            
+            <div class="congrats-content">
+              <div class="congrats-img">
+                <img src="assets/images/icons/success.png" alt="">
+              </div>
+              <h3>Set up your profile and update it!</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent dui dolor, interdum eget varius non, accumsan non orci. Donec hendrerit elementum feugiat. Cras tristique velit at dapibus vehicula. Quisque pellentesque placerat eros. Sed eu semper risus, non mattis urna. Quisque vitae lorem sit amet lacus ultrices tristique. Proin blandit turpis at metus posuere tristique. Vestibulum facilisis auctor placerat.</p>
+              <a href="login.html" class="btn btn-go-to">Go to login</a>
+            </div>
+           
+          </div>
+        </div>
+        <!-- end -->
+        </div>
+      </div>
+      
+    </section>
+
+  </div>
+ </main>
+
+
+
+<!-- script here -->
+
+<script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+<script src="../assets/js/jquery.fancybox.min.js"></script>
+<script src="../assets/js/bootstrap.bundle.min.js" ></script>
+<script src="../assets/js/owl.carousel.min.js" ></script>
+<script src="../assets/js/owl.carousel.js" ></script>
+<script src="../assets/js/wow.js" ></script>
+<script src="../assets/js/dataTables.bootstrap4.min.js" ></script>
+<script src="../assets/js/jquery.dataTables.min.js" ></script>
+<script src="../assets/js/get-data-table.js" ></script>
+<script src="../assets/js/custom.js" ></script>
+<script src="../assets/js/jquery.mask.js" ></script>
+<script src="../assets/js/select2.min.js" ></script>
+<script type="text/javascript" src="../assets/js/jquery-pincode-autotab.min.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap-datepicker.min.js"></script>
+
+<script>
+  $('.btn-send-otp').click(function() {
+    $('.form-control').removeAttr('disabled');
+    $('.resend-otp').show();
+  });
+
+
+  $('.otp-enter').keypress(function() {
+    if($(this).val().length > 6) {
+         // Enable submit button
+         $('.resend-otp').hide();
+         $('.input-group-text').addClass('done-otp');
+
+    } else {
+         // Disable submit button
+         $('.resend-otp').show();
+    }
+});
+
+$('.resller-nav-tab ul li a').click(function() {
+  $(this).parent().addClass('active');
+});
+</script>
+</body>
+</html>
