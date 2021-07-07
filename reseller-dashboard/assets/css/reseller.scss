@@ -2879,16 +2879,50 @@ $futura-medium-italic:'FuturaBT-MediumItalic';
                         white-space: nowrap;
                     }
                 }
+
+                .my-payout-div {
+                    padding: 25px 22px;
+                    background-color: #fff;
+                    border: 1px solid #E1E1E1;
+                    margin-bottom: 20px;
+                    border-radius: 2px;
+                   
+
+                    a {
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        text-decoration: none;
+                    }
+
+                    p {
+                        font-size: 14px;
+                        color: #222221;
+                        line-height: 28px;
+                        margin-bottom: 0;
+                        font-family: $futura-medium;
+                    }
+
+                    h3 {
+                        color: #FFC20F;
+                        font-size: 22px;
+                        line-height: 24px;
+                        font-family: $futura-medium;
+                    }
+
+                    i {
+                        font-size: 24px;
+                        font-weight: 800;
+                        color: #CBCBCB;
+                    }
+                }
         
             }   
         }
 
-
         // inner section
 
         // stroe showcase
-
-
       
         .store-showcase-section  {
             
@@ -4125,8 +4159,6 @@ $futura-medium-italic:'FuturaBT-MediumItalic';
 
         }
 
-
-
         // buisness tips
 
         .breadcrumb-section.breadcrumb-reseller {
@@ -4189,7 +4221,6 @@ $futura-medium-italic:'FuturaBT-MediumItalic';
             }
         }
 
-
         .back-to-home{
                 padding: 20px 0;
             .btn-back{
@@ -4205,7 +4236,6 @@ $futura-medium-italic:'FuturaBT-MediumItalic';
             }
            
         }
-
 
         .buisness-tips-content{
             h3.quote {
@@ -4254,8 +4284,7 @@ $futura-medium-italic:'FuturaBT-MediumItalic';
                 }
             }
         }
-        
-
+    
 
     //   message center
 

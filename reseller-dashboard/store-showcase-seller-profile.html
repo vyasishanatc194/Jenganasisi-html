@@ -29,13 +29,13 @@
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link href="../assets/css/bootstrap-datepicker.min.css" rel="stylesheet" >
 <link href="../assets/css/jquery.fancybox.min.css" rel="stylesheet" >
+<link href="assets/css/reseller-style.css" rel="stylesheet">
 
 </head>
 <body class="d-flex flex-column h-100">
 
   <!-- top header-->
  
-  
   <header class="header header-reseller hader-dashboard">
   <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark ">
@@ -366,392 +366,664 @@
     </div>
   </div>
 
-
-
 <!-- Begin page content -->
 <main role="main" class="flex-shrink-0 middle-section reseller-dashboard">
   <div class="middle-inner">
-   <section class="dashboard-summary-section">
-     <div class="dashboard-summary-inner">
-       <div class="container-fluid">
-         <div class="row">
+    <section class="dashboard-summary-section">
+      <div class="dashboard-summary-inner">
+        <div class="container-fluid">
+          <div class="row">
 
+            <!-- #Start -->
         
-        <div class="col-xl-9 col-lg-12">
+            <div class="col-xl-12 col-lg-12">
 
-          <div class="store-showcase-section">
-            <div class="showcase-inner">
+              <div class="store-showcase-section table-root">
+                <div class="showcase-inner">
 
-              <div class="showcase-tabs">
-                <ul class="nav nav-tabs">
-                  <li><a href="store-showcase.html">Store Information</a></li>
-                  <li><a href="store-showcase-seller-profile.html"  class="active">Seller Profile</a></li>
+                <!-- header section -->
+                <div class="showcase-tabs">
+                  <ul class="nav nav-tabs">
+                    <li><a href="store-showcase.html" >Store Information</a></li>
+                    <li><a href="store-showcase-seller-profile.html" class="active">Seller Profile</a></li>
+                    <li><a href="store-showcase-pickup-store-info.html">PickupStore Information</a></li>
                   </ul>
-            
-                <div class="tab-content showcase-tab-content">
-                  
-                  <div id="sellerprofile" class="tab-pane fade show active">
-               
-                    <div class="seller-profile-showcase">
-
-                    <!-- view company profile -->
-                    <div class="view-company-profile" id="viewcompany-content">
-
-                      <!-- edit button -->
-                        <div class="edit-info-btn">
-                          <a href="#" id="viewcompany-edit"><span class="editText">Edit info</span><span class="pen"><i class="material-icons">
-                            edit
-                            </i></span></a>
-                        </div>
-
-                        <!-- edit button -->
-
-
-                        <div class="view-comapy-img">
-                          <img src="../assets/images/company-profile.png" alt="">
-                        </div>
-                        <div class="view-company-details">
-                          <h3>Richard lutherbrucks</h3>
-                          <ul><li><a><span class="tag-rating"><i class="fa fa-star"></i> 4.6</span>26 Rating &amp; 350 Review</a></li>
-                            <li><a href="#">3 Years 4 Months</a></li>
-                            <li><a href="#">View Chat History</a></li>
-                            <li><a href="#">View Company profile</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    
-                    <div class="viewcompany-form" id="viewcompany-form" style="display: none;">
-                      <div class="row row-filed" >
-                        <div class="col-xl-3 col-lg-4">
-                          <div class="form-group">
-                            <label>Feature name 1</label>
-                            <input type="text" class="form-control" placeholder="feature name" />
+          
+                  <div class="tab-content showcase-tab-content">
+                    <div id="storeinformation" class="tab-pane fade">
+          
+                      <div class="store-showcase-slider">
+          
+          
+                        <div class="">
+                          <div class="view-mode">
+                            <a href="../assets/images/service-s1.png" data-fancybox="images">
+                              <i class="fa fa-arrows-alt" aria-hidden="true"></i>
+                            </a>
+                            <a href="../assets/images/service-s2.png" data-fancybox="images">
+                            </a>
+                            <a href="../assets/images/service-s3.png" data-fancybox="images">
+                            </a>
+                            <a href="../assets/images/service-s1.png" data-fancybox="images">
+                            </a>
                           </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                          <div class="form-group">
-                            <label>Feature name 2</label>
-                            <input type="text" class="form-control" placeholder="feature name" />
+          
+                          <div id="bigdash" class="owl-carousel owl-theme bg-img-slider">
+          
+                            <div class="item">
+                              <img src="../assets/images/service-s1.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s3.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s1.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s3.png" class="img-fluid" alt="">
+                            </div>
+          
                           </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4">
-                          <div class="form-group">
-                            <label>Feature name 3</label>
-                            <input type="text" class="form-control" placeholder="feature name" />
-                          </div>
-                        </div>
-                       
-             
-                        </div>
-
-                     
-
-                      
-                   
-
-                      <div class="row">
-                        <div class="col-xl-3 col-lg-4">
-                         
-                        </div>
-                        <div class="col-xl-9  col-lg-8">
-                          <div class="form-btns">
-                            <a href="#" class="btn btn-cancel">Cancel</a>
-                            <a href="#" class="btn btn-save" id="viewcompany-save">Save</a>
-                          </div>
-                        </div>
-                      </div>
-                      
-                   </div>
-
-                    <!-- end company profile -->
-
-                    <!-- company gallery -->
-                    <div class="company-gallery">
-
-                      
-                      <div class="row">
-                        <div class="col-lg-3 col-md-6">
-                          <div class="gallery-thumb video">
-                            <video width="100%" min-height="188px" controls>
-                            <source src="assets/video/video.mp4" type="video/mp4">
-                            <source src="assets/video/video.mp4" type="video/ogg">
-                            Your browser does not support HTML5 video.
-                          </video>
-                          </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                          <div class="gallery-thumb">
-                            <img src="../assets/images/company-img.png" class="img-fluid" alt="">
-                          </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6">
-                          <div class="gallery-thumb upload">
-                            <label for="img-upload01">
-                              <i class="material-icons">
-                                backup
+                          <div id="thumbsdash" class="owl-carousel owl-theme bg-thumb">
+                            <div class="item">
+                              <img src="../assets/images/service-s2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s3.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s2.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <img src="../assets/images/service-s3.png" class="img-fluid" alt="">
+                            </div>
+                            <div class="item">
+                              <a href="#" class="img-upload" data-toggle="modal" data-target="#myModal">
+                                <i class="material-icons">
+                                  add
                                 </i>
-
-                                <h2>Upload Photo and Video</h2>
-                                <p>Must be related
-                                  to Product or company</p>
-
-                            </label>
-                            <input type="file" class="form-control" id='img-upload01' class="file-upload"/>
+                              </a>
+                            </div>
+          
+          
+          
+          
+          
                           </div>
                         </div>
-
+          
+          
                       </div>
-                    </div>
-
-                    <!-- gallery-end -->
-                  
-                    <!-- gallery info end -->
-                  
-                    <div class="gallery-info" id="galleryinfo-content">
-
+          
+                      <!-- store showcase haeding -->
+          
+                      <div class="store-showcase-heading" id="store-heading-content">
+          
                         <!-- edit button -->
                         <div class="edit-info-btn">
-                          <a href="#" id="galleryinfo-edit"><span class="editText">Edit info</span><span class="pen"><i class="material-icons">
-                            edit
-                            </i></span></a>
+                          <a href="#" id="store-heading-edit"><span class="editText">Edit info</span><span class="pen"><i
+                                class="material-icons">
+                                edit
+                              </i></span></a>
                         </div>
-
+          
+                        <!-- edit bnutton end -->
+          
+                        <h2>Machinery manufacture Co. Ltd.</h2>
+          
+                        <ul>
+                          <li>
+                            <h4><span class="tag-rating"><i class="fa fa-star"></i> 4.6</span>26 Rating &amp; 350 Review</h4>
+                          </li>
+                          <li><a href="#" class="verified"> <img src="../assets/images/icons/verified.png" alt=""> Verified by
+                              JN</a></li>
+                          <li><a href="#" class="form-qa"> <img src="../assets/images/icons/forum-24.png" alt=""> Community QA</a>
+                          </li>
+                        </ul>
+                      </div>
+          
+                      <!-- form -->
+                      <div class="store-heading-form" id="store-heading-form" style="display: none;">
+                        <div class="form-group">
+                          <label>Business registered name</label>
+                          <input type="text" class="form-control" placeholder="Enter business name" />
+                          <p><span>Note:</span>Another words it populates by default based on the business name the vendor
+                            registered.</p>
+                        </div>
+          
+                        <div class="form-group">
+                          <label>Resellers Information</label>
+                          <textarea type="text" class="form-control" placeholder="Enter seller information"></textarea>
+                        </div>
+                        <div class="form-btns">
+                          <a href="#" class="btn btn-cancel">Cancel</a>
+                          <a href="#" class="btn btn-save" id="store-heading-save">Save</a>
+                        </div>
+                      </div>
+                      <!-- form end-->
+          
+                      <!-- store showcase haeding -->
+          
+                      <!-- store-info -->
+                      <div class="store-showcase-info" id="sotreInfo-content">
+          
                         <!-- edit button -->
-
-                      <div class="row">
-                          <div class="col-lg-6 col-md-12">
-                              <ul class="info-list">
-                                  <li>
-                                      <p><span>R&amp;D Staff</span>50+</p>
-                                  </li>
-                                  <li>
-                                      <p><span>Patent</span>-</p>
-                                  </li>
-                                  <li>
-                                      <p><span>Employee</span>450 - 500</p>
-                                  </li>
+                        <div class="edit-info-btn">
+                          <a href="#" id="sotreInfo-edit"><span class="editText">Add and edit</span><span class="pen"><i
+                                class="material-icons">
+                                edit
+                              </i>
+                            </span>
+                          </a>
+                        </div>
+          
+                        <!-- edit bnutton end -->
+                        <div class="row">
+                          <div class="col-xl-9 col-lg-12 col-md-12">
+                            <div class="service-detail-info">
+                              <ul>
+                                <li><span>Main products</span>Kenya, USA, London</li>
+                                <li><span>State the region</span>Kenya, USA, London</li>
+                                <li><span>Total revenue 25.4%</span>Kenya, USA, London</li>
+                                <li><span>Top 3 market</span>Kenya, USA, London</li>
                               </ul>
-                          </div>
-                          <div class="col-lg-6 col-md-12">
-                            <ul class="info-list">
-                                <li>
-                                    <p><span>Certificate</span>50+</p>
-                                </li>
-                                <li>
-                                    <p><span>Verified</span>Verified by <strong>JN</strong></p>
-                                </li>
-                                
-                            </ul>
-                        </div>
-                      </div>
-                    </div>
-
-
-                    <div class="galleryinfo-form" id="galleryinfo-form" style="display: none;">
-                      <div class="row row-filed" >
-                        <div class="col-xl-3 col-lg-4">
-                          <div class="form-group">
-                            <label>Feature name 1</label>
-                            <input type="text" class="form-control" placeholder="feature name" />
-                          </div>
-                        </div>
-                        <div class="col-xl-7 col-lg-5">
-                          <div class="form-group">
-                            <label>Description</label>
-                            <input type="text" class="form-control" placeholder="Enter description" />
-                          </div>
-                        </div>
-                        <div class="col-xl-2 col-lg-3">
-                         <div class="remove-form-button">
-                           <a href="#" class="btn-remove remove-row">
-                             Remove
-                            <i class="fe fe-x"></i>
-                           </a>
-                         </div>
-                        </div>
-                        </div>
-
-                      
-                      <div class="add-gallery-info">
-
-                      </div>
-
-                      <div class="row">
-                        <div class="col-xl-3 col-lg-4 col-md-5">
-                          <div class="add-filed-btns">
-                            <a href="#" class="btn btn-add-feature" id="add-gallery-info"><i class="fe fe-plus"></i>Add new feature</a>
-                          </div>
-                        </div>
-                        <div class="col-xl-9  col-lg-8 col-md-7">
-                          <div class="form-btns">
-                            <a href="#" class="btn btn-cancel">Cancel</a>
-                            <a href="#" class="btn btn-save" id="galleryinfo-save">Save</a>
+          
+                            </div>
                           </div>
                         </div>
                       </div>
-                      
-                   </div>
-
-                    <!-- gallery info end -->
-
-                    <!-- product description -->
-
-                    <div class="product-description" id="seller-heading-content">
-
+          
+                      <!-- form -->
+                      <div class="sotreInfo-form" id="sotreInfo-form" style="display: none;">
+                        <div class="row row-filed">
+                          <div class="col-xl-3 col-lg-4">
+                            <div class="form-group">
+                              <label>Feature name 1</label>
+                              <input type="text" class="form-control" placeholder="feature name" />
+                            </div>
+                          </div>
+                          <div class="col-xl-7 col-lg-5">
+                            <div class="form-group">
+                              <label>Description</label>
+                              <input type="text" class="form-control" placeholder="Enter description" />
+                            </div>
+                          </div>
+                          <div class="col-xl-2 col-lg-3">
+                            <div class="remove-form-button">
+                              <a href="#" class="btn-remove remove-row">
+                                Remove
+                                <i class="fe fe-x"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+          
+          
+                        <div class="row row-filed">
+                          <div class="col-xl-3 col-lg-4">
+                            <div class="form-group">
+                              <label>Feature name 2</label>
+                              <input type="text" class="form-control" placeholder="feature name" />
+                            </div>
+                          </div>
+                          <div class="col-xl-7 col-lg-5">
+                            <div class="form-group">
+                              <label>Description</label>
+                              <input type="text" class="form-control" placeholder="Enter description" />
+                            </div>
+                          </div>
+                          <div class="col-xl-2 col-lg-3">
+                            <div class="remove-form-button">
+                              <a href="#" class="btn-remove remove-row">
+                                Remove
+                                <i class="fe fe-x"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+          
+          
+                        <div class="row row-filed">
+                          <div class="col-xl-3 col-lg-4">
+                            <div class="form-group">
+                              <label>Feature name 3</label>
+                              <input type="text" class="form-control" placeholder="feature name" />
+                            </div>
+                          </div>
+                          <div class="col-xl-7 col-lg-5">
+                            <div class="form-group">
+                              <label>Description</label>
+                              <input type="text" class="form-control" placeholder="Enter description" />
+                            </div>
+                          </div>
+                          <div class="col-xl-2 col-lg-3">
+                            <div class="remove-form-button">
+                              <a href="#" class="btn-remove remove-row">
+                                Remove
+                                <i class="fe fe-x"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+          
+          
+                        <div class="add-fields">
+          
+                        </div>
+          
+                        <div class="row">
+                          <div class="col-xl-3 col-lg-4 col-md-5">
+                            <div class="add-filed-btns">
+                              <a href="#" class="btn btn-add-feature" id="add-feature"><i class="fe fe-plus"></i>Add new
+                                feature</a>
+                            </div>
+                          </div>
+                          <div class="col-xl-9  col-lg-8 col-md-7">
+                            <div class="form-btns">
+                              <a href="#" class="btn btn-cancel">Cancel</a>
+                              <a href="#" class="btn btn-save" id="sotreInfo-save">Save</a>
+                            </div>
+                          </div>
+                        </div>
+          
+                      </div>
+                      <!-- form end-->
+          
+          
+          
+                      <!-- store inventory-info -->
+          
+                      <div class="store-showcase-table" id="sotreInventory-content">
                         <!-- edit button -->
                         <div class="edit-info-btn">
-                          <a href="#" id="seller-heading-edit"><span class="editText">Edit info</span><span class="pen"><i class="material-icons">
-                            edit
-                            </i></span></a>
+                          <a href="#" class="" id="sotreInventory-edit"><span class="editText">Add and edit</span><span
+                              class="pen"><i class="material-icons">
+                                edit
+                              </i></span></a>
                         </div>
+          
+                        <!-- edit bnutton end -->
+                        <div class="row">
+                          <div class="col-xl-12 col-lg-12 col-md-12">
+                            <div class="showcase-table-info">
+                              <ul>
+                                <li>Business Type</li>
+                                <li>Nationwide vs Global</li>
+                              </ul>
+                              <ul>
+                                <li>Counties Served</li>
+                                <li>Kenya</li>
+                              </ul>
+                              <ul>
+                                <li>Ownership</li>
+                                <li>Self</li>
+                              </ul>
+                              <ul>
+                                <li>Year Established</li>
+                                <li>12th March 1992</li>
+                              </ul>
+                              <ul>
+                                <li>Policy</li>
+                                <li><a href="#">Click to View Policies</a></li>
+                              </ul>
+                              <ul>
+                                <li>Supply Capability</li>
+                                <li> 500000 Piece/Pieces Per Day </li>
+                              </ul>
+                            </div>
+          
+          
+          
+                          </div>
+                        </div>
+                      </div>
+          
+                      <!-- form -->
+                      <div class="sotreInventory-form" id="sotreInventory-form" style="display: none;">
+          
+                        <div class="row row-filed">
+                          <div class="col-xl-3 col-lg-4">
+                            <div class="form-group">
+                              <label>Feature name 1</label>
+                              <input type="text" class="form-control" placeholder="feature name" />
+                            </div>
+                          </div>
+                          <div class="col-xl-7 col-lg-5">
+                            <div class="form-group">
+                              <label>Description</label>
+                              <input type="text" class="form-control" placeholder="Enter description" />
+                            </div>
+                          </div>
+                          <div class="col-xl-2 col-lg-3">
+                            <div class="remove-form-button">
+                              <a href="#" class="btn-remove remove-row">
+                                Remove
+                                <i class="fe fe-x"></i>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="add-inventory">
+          
+                          <!-- tanplate added here -->
+                        </div>
+          
+                        <div class="row">
+                          <div class="col-xl-3 col-lg-4 col-md-5">
+                            <div class="add-filed-btns">
+                              <a href="#" class="btn btn-add-feature" id="add-inventory"><i class="fe fe-plus"></i>Add new
+                                feature</a>
+                            </div>
+                          </div>
+                          <div class="col-xl-9 col-lg-8 col-md-7">
+                            <div class="form-btns">
+                              <a href="#" class="btn btn-cancel">Cancel</a>
+                              <a href="#" class="btn btn-save" id="sotreInventory-save">Save</a>
+                            </div>
+                          </div>
+                        </div>
+          
+                      </div>
+                      <!-- form end-->
+          
+                      <!-- store inventory-info -->
+          
+          
+                      <div class="store-showcase-transaction">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="transaction-info">
+                              <h3>Want to show transaction</h3>
+          
+                              <div class="col-custom ">
+                                <div class="circle-icon"><i class="fa fa-usd"></i></div>
+                                <h3>236 Transaction ( 6 months )</h3>
+                                <p>$ 150.000+</p>
+                              </div>
+          
+                              <div class="note-transaction">
+                                <div class="switch-slider">
+                                  <input type="checkbox" class="toggle" id="toggle4" checked="">
+                                  <label for="toggle4">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                                <div class="note-text">
+                                  <h3>Note</h3>
+                                  <p>Here if you want to show the your transaction then you can Toggle on and you do not want to
+                                    show the transaction than you can Toggle off.</p>
+                                </div>
+                              </div>
+          
+          
+                            </div>
+          
+                          </div>
+          
+                          <div class="col-lg-6 col-md-6 col-sm-6 brdr-left">
+                            <div class="transaction-info">
+                              <h3>Want to show Response rate</h3>
+          
+                              <div class="col-custom ">
+                                <div class="circle-icon"><i class="material-icons">
+                                    chat_bubble_outline
+                                  </i></div>
+                                <h3>236 Transaction ( 6 months )</h3>
+                                <p>$ 150.000+</p>
+                              </div>
+          
+                              <div class="note-transaction">
+                                <div class="switch-slider">
+                                  <input type="checkbox" class="toggle" id="toggle2" checked="">
+                                  <label for="toggle2">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                                <div class="note-text">
+                                  <h3>Note</h3>
+                                  <p>Here if you want to show the your transaction then you can Toggle on and you do not want to
+                                    show the transaction than you can Toggle off.</p>
+                                </div>
+                              </div>
+          
+                            </div>
+          
+                          </div>
+                        </div>
+                      </div>
+          
+          
+                      <div class="store-setting">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="transaction-info">
+                              <h3>Want to start order button on reseller show case</h3>
+          
+                              <div class="note-transaction">
+                                <div class="switch-slider">
+                                  <input type="checkbox" class="toggle" id="toggle6" checked="">
+                                  <label for="toggle6">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                                <div class="note-text">
+                                  <h3>Note</h3>
+                                  <p>Here if you want to show the your transaction then you can Toggle on and you do not want to
+                                    show the transaction than you can Toggle off.</p>
+                                </div>
+                              </div>
+          
+          
+                            </div>
+          
+                          </div>
+          
+                          <div class="col-lg-6 col-md-6 col-sm-6 brdr-left">
+                            <div class="transaction-info">
+                              <h3>Chat with suppliers</h3>
+          
+                              <div class="note-transaction">
+                                <div class="switch-slider">
+                                  <input type="checkbox" class="toggle" id="toggle5" checked="">
+                                  <label for="toggle5">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                                <div class="note-text">
+                                  <h3>Note</h3>
+                                  <p>Here if you want to show the your transaction then you can Toggle on and you do not want to
+                                    show the transaction than you can Toggle off.</p>
+                                </div>
+                              </div>
+          
+                            </div>
+          
+                          </div>
+                        </div>
+                      </div>
+          
+                    </div>
 
-                        <!-- edit button -->
+                    <div class="seller-profile-tab-root" class="tab-pane fade show in active">
+                      <div class="seller-profile-div" >
+                        <div class="row">
+                          <div class="col-lg-9">
+                            <div class="seller-profile" >
+                            <div class="view-comapy-img">
+                              <img src="../assets/images/company-profile.png" alt="">
+                            </div>
+                              <div class="view-company-details">
+                                <h3>Richard lutherbrucks</h3>
+                                <ul><li><a><span class="tag-rating"><i class="fa fa-star"></i> 4.6</span>26 Rating &amp; 350 Review</a></li>
+                                  <li><a href="#">3 Years 4 Months</a></li>
+                                  <li><a href="#">View Chat History</a></li>
+                                  </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-3">
+                            <div class="send-plan">
+                              <a href="#" class="btn btn-send">SEND PLAN &amp; Business Tips</a>
+                            </div>
+                          </div>
+                        </div>
+                          
+                      </div>
+      
+                      <div class="seller-profile-gallery">
+      
+                              
+                        <div class="row">
+                          <div class="col-lg-3 col-md-6">
+                            <div class="gallery-thumb video">
+                              <a href="#" class="remove-btn"><i class="fe fe-x"></i></a>
+                              <video width="100%" min-height="188px" controls="">
+                              <source src="../reseller-dashboard/assets/video/video.mp4" type="video/mp4">
+                              <source src="../reseller-dashboard/assets/video/video.mp4" type="video/ogg">
+                              Your browser does not support HTML5 video.
+                            </video>
+                            </div>
+                          </div>
+                          <div class="col-lg-3 col-md-6">
+                            <div class="gallery-thumb">
+                              <a href="#" class="remove-btn"><i class="fe fe-x"></i></a>
+                              <img src="../assets/images/company-img.png" class="img-fluid" alt="">
+                            </div>
+                          </div>
+      
+                          <div class="col-lg-3 col-md-6">
+                            <div class="gallery-thumb upload">
+                              <label for="img-upload01">
+                                <i class="material-icons">
+                                  backup
+                                  </i>
+                                  <h2>Upload Photo and Video</h2>
+                                  <p>Must be related
+                                    to Product or company</p>
+                              </label>
+                              <input type="file" class="form-control" id="img-upload01">
+                            </div>
+                          </div>
+      
+                        </div>
+                      </div>
+      
+                      <div class="bidding-seller-product ">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6 br-1">
+                            <div class="bidding-inner-seller">
+                              <h2>Allow users to pickup</h2>
+                              <div class="note-transaction">
+                                <div class="switch-slider">
+                                  <input type="checkbox" class="toggle" id="toggle001" checked="">
+                                  <label for="toggle001">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                                <div class="note-text max-400">
+                                  <h3>Note</h3>
+                                  <p>Here if you want to allow users to pickup then you can <a href="#">Toggle on</a> and if you do not want to allow than you can <a href="#">Toggle off.</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+      
+                          <div class="col-lg-6 col-md-6">
+                            <div class="bidding-inner-seller">
+                              <h2>Allow to used messaging features</h2>
+                              <div class="note-transaction">
+                                <div class="switch-slider">
+                                  <input type="checkbox" class="toggle" id="toggle002" checked="">
+                                  <label for="toggle002">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                                <div class="note-text">
+                                  <h3>Note</h3>
+                                  <p>Here if you want to show the your transaction then you can <a href="#">Toggle on</a> and you do not want to show the transaction than you can <a href="#">Toggle off.</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+      
+                        </div>
+                      </div>
+
+                      <div class="bidding-seller-product bidding-seller-product-row02">
+                        <div class="row">
+                          <div class="col-lg-6 col-md-6">
+                            <div class="bidding-inner-seller">
+                              <h2>Allow to used bidding products</h2>
+                              <div class="note-transaction">
+                                <div class="switch-slider">
+                                  <input type="checkbox" class="toggle" id="toggle003" checked="">
+                                  <label for="toggle003">
+                                    <span class="on">ON</span>
+                                    <span class="off">OFF</span>
+                                  </label>
+                                </div>
+                                <div class="note-text max-400">
+                                  <h3>Note</h3>
+                                  <p>Here if you want to show the your transaction then you can  <a href="#">Toggle on</a> and you do not want to show the transaction than you can <a href="#">Toggle off.</a></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+      
+                        </div>
+                      </div>
+      
+                      <div class="product-seller-description" >
+      
                       <div class="row">
                         <div class="col-lg-12">
                           <h3>OmniTechRetail4.3</h3>
                           <p>
                             After reading Clayton Christensen, Geoffrey Moore and Steve Blank, I was expecting a lot from The Lean Startup by Eric Ries. I was disappointed. It could be that I did not read it well or too fast, but I was expecting much more. But instead of saying what I did not like, let me begin with the good points. Just like the previous three authors, Ries shows  "My cofounders and I are determined to make new mistakes. We do everything wrong. We build a mi…
-  After reading Clayton Christensen, Geoffrey Moore and Steve Blank, I was expecting a lot from The Lean Startup by Eric Ries. I was disappointed. It could be that I did not read it well or too fast, but I was expecting much more. But instead of saying what I did not like, let me begin with the good points. Just like the previous three authors, Ries shows  "My cofounders and I are determined to make new mistakes. We do everything wrong. We build a mi…
-
+                After reading Clayton Christensen, Geoffrey Moore and Steve Blank, I was expecting a lot from The Lean Startup by Eric Ries. I was disappointed. It could be that I did not read it well or too fast, but I was expecting much more. But instead of saying what I did not like, let me begin with the good points. Just like the previous three authors, Ries shows  "My cofounders and I are determined to make new mistakes. We do everything wrong. We build a mi…
                           </p>
-
+      
                           
                         </div>
                       </div>
+                      </div>
                     </div>
-
-
-                    <!-- form -->
-
-                    <div class="seller-heading-form" id="seller-heading-form" style="display: none;">
-                      <div class="form-group">
-                        <label>Business registered name</label>
-                        <input type="text" class="form-control" placeholder="Enter business name" />
-                        <p><span>Note:</span>Another words it populates by default based on the business name the vendor registered.</p>
-                      </div>
-
-                      <div class="form-group">
-                        <label>Resellers Information</label>
-                        <textarea type="text" class="form-control" placeholder="Enter seller information"></textarea>
-                      </div>
-                      <div class="form-btns">
-                        <a href="#" class="btn btn-cancel">Cancel</a>
-                        <a href="#" class="btn btn-save" id="seller-heading-save">Save</a>
-                      </div>
+                  
                   </div>
-                    <!-- form -->
-
-                    <div class="chart-section">
-                      <div class="row">
-                        <div class="col-sm-6 chart-box">
-                          <div class="doughnut-inner">
-                            <h4>5.3</h4>
-                          </div>
-                          <canvas id="qty-chart" height="180" width="180" style="width: 180px; height: 180px;"></canvas>
-                          <div class="chart-description">
-                            <h3>Product Quality</h3>
-                            <p>Product quality is measured by product review and return products</p>
-                          </div>
-                         
-                         
-                        </div>
-                        <div class="col-sm-6 chart-box">
-                          <div class="doughnut-inner">
-                            <h4>6.3</h4>
-                          </div>
-                          <canvas id="service-chart" height="180" width="180" style="width: 180px; height: 180px;"></canvas>
-                          <div class="chart-description">
-                            <h3>Service Quality</h3>
-                            <p>Service quality is measured
-                              by product cancellation and product quality.</p>
-                          </div>
-                          
-                       
-                        </div>
-                      </div>
-                    </div>
-
-                    <!--  -->
-                    </div>
-
-                  </div>                   
                 </div>
-              </div>
-            </div>
-        
-          </div>
 
+                <!-- end -->
 
-        </div>
-
-        <div class="col-xl-3 col-lg-12">
-          <div class="page-controller">
-            <div class="page-controller-inner">
-              <div class="page-action-box">
-
-                <ul>
-                  <li class="page-action-link">
-                    <a href="preview-seller.html"><span><i class="material-icons">
-                      remove_red_eye
-                      </i></span>View As Visitor</a>
-                  </li>
-
-                  <li class="page-action-link">
-                    <a href="#"><span><i class="material-icons">
-                      edit
-                      </i></span>Edit Page Info</a>
-                  </li>
-
-
-                  <li class="page-action-link">
-                    <a href="#" data-toggle="modal" data-target="#sharelink-modal"><span><i class="material-icons">
-                      share
-                      </i></span>Share your store link</a>
-                  </li>
-
-
-                  <li class="page-action-link">
-                    <a href="business-tips.html"><span><i class="material-icons">
-                      outlined_flag
-                      </i></span>Business Tips</a>
-                  </li>
-                </ul>
-
-              </div>
-          <!-- chart -->
-              <div class="product-chart-box">
-                <div class="chart-header">
-                  <h3>Total Products<span>350</span></h3>
-                </div>
-                <div id="container"></div>
-                <div class="chart-footer">
-                  <a href="#" class="btn btn-actiavted"><i class="fa fa-circle" style="color:#222221;"></i>Activated</a>
-                  <a href="#" class="btn btn-deactivated"><i class="fa fa-circle" style="color:#FFC20F;"></i>Deactivated</a>
-                </div>
+                </div>           
               </div>
 
-            <!-- add more product -->
-            <div class="upgrade-account">
-                <h3>Add more products</h3>
-                <div class="ugarde-img">
-                  <img src="assets/images/upgrade.png" class="img-fluid" alt="">
-                </div>
-
-                <p><a href="#">Upgrade Your Account</a> And Upload More And More Featured Products And Sell Highly recommended Products.</p>
-
-                <a href="#" class="btn btn-upgrade">Upgrade Account</a>
-
             </div>
-            </div>
+
+            <!-- #End -->
+
+
           </div>
         </div>
-
-        </div>
-       </div>
-     </div>
-   </section>
+      </div>
+    </section>
 
   </div>
  </main>

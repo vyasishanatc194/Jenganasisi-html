@@ -4,7 +4,6 @@ $('#collapse-nav').click(function(){
     $('.right-sidenav').toggleClass('collapse-menu');
     $('.hader-dashboard').toggleClass('collapsed-header');
     $('.reseller-dashboard').toggleClass('dashboard-expand');
-
 });
 
 

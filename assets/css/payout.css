@@ -1,0 +1,728 @@
+@import url("../fonts/futura-book.css");
+@import url("../fonts/futura-medium.css");
+@import url("../fonts/futura-bold.css");
+.payout-section .payout-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #e8e8e8;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+.payout-section .payout-header .title {
+  margin-bottom: 10px;
+}
+
+.payout-section .payout-header .title h3 {
+  font-size: 18px;
+  color: #222221;
+  letter-spacing: 0;
+  font-family: "Conv_futuramediumbt";
+  margin-bottom: 0;
+}
+
+.payout-section .payout-header .action-side {
+  margin-bottom: 10px;
+}
+
+.payout-section .payout-header .action-side .btn-pay {
+  background-color: #ffc20f;
+  width: 100%;
+  font-family: "Conv_futuramediumbt";
+  height: 34px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  line-height: 19px;
+  padding: 8px 60px;
+  height: 40px;
+  white-space: nowrap;
+}
+
+.payout-section .payout-header .action-side .btn-pay:hover {
+  background-color: #ffc20f;
+  border: 1px solid #ffc20f;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 12px 24px 0 rgba(255, 194, 15, 0.3);
+          box-shadow: 0 12px 24px 0 rgba(255, 194, 15, 0.3);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  transition: all 0.3s ease-in-out;
+}
+
+.payout-section .payout-header .action-side .btn-pay:focus {
+  background-color: #ffc20f;
+  border: 1px solid #ffc20f;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 12px 24px 0 rgba(255, 194, 15, 0.3);
+          box-shadow: 0 12px 24px 0 rgba(255, 194, 15, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.payout-section .payout-header .action-side .btn-pay:active {
+  background-color: #ffc20f;
+  border: 1px solid #ffc20f;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 12px 24px 0 rgba(255, 194, 15, 0.3);
+          box-shadow: 0 12px 24px 0 rgba(255, 194, 15, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.payout-section .payout-header .gray-text a {
+  color: rgba(34, 34, 33, 0.5);
+}
+
+.payout-tab-section .nav-tabs {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.payout-tab-section .nav-tabs li a {
+  padding: 10px 20px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Conv_futuramediumbt";
+  background-color: transparent;
+  color: #222221;
+  border: 0;
+  border-bottom: 2px solid transparent;
+}
+
+.payout-tab-section .nav-tabs li a:hover {
+  border-bottom: 2px solid #F7B500;
+}
+
+.payout-tab-section .nav-tabs li .active {
+  background-color: transparent;
+  border-bottom: 2px solid #F7B500;
+}
+
+.payout-tab-section .content-payout {
+  padding: 20px 0;
+}
+
+.payout-tab-section .seller-tbl-lbl {
+  text-align: left !important;
+}
+
+.payout-tab-section th.action {
+  text-align: right !important;
+}
+
+.payout-tab-section .table-admin tbody tr td a {
+  color: #373738;
+}
+
+.payout-tab-section .table-product-resell tbody tr td {
+  color: #727272;
+}
+
+.payout-tab-section .table-product-resell tbody tr td span {
+  display: block;
+}
+
+.payout-tab-section .table-product-resell .product-tbl-img img {
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 2px 10px 0 rgba(232, 232, 232, 0.18);
+          box-shadow: 0 2px 10px 0 rgba(232, 232, 232, 0.18);
+}
+
+.payout-tab-section .payment-txt p {
+  color: #222221;
+}
+
+.payout-tab-section .seller-action a {
+  font-size: 12px;
+  color: #0f62ff;
+  letter-spacing: 0;
+  text-align: right;
+  white-space: nowrap;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.payout-tab-section .seller-action a i {
+  font-weight: 600;
+  position: relative;
+  top: 1px;
+  margin-left: 3px;
+}
+
+.payout-search .row-10 {
+  margin: 0 -5px;
+}
+
+.payout-search .row-10 .pad-10 {
+  padding: 0 5px;
+}
+
+.payout-search .form-group .form-control {
+  height: 40px;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.payout-search .input-group-text {
+  height: 40px;
+  text-decoration: none;
+  color: #252524;
+}
+
+.payout-search .br-white {
+  border-left-color: #fff;
+}
+
+.flatpickr-months .flatpickr-month {
+  height: 50px !important;
+}
+
+.flatpickr-calendar .flatpickr-month {
+  border-bottom: 1px solid #CBCBCB;
+  padding: 5px 0;
+  height: 50px;
+}
+
+.flatpickr-calendar .flatpickr-weekday {
+  color: #FFC20F !important;
+  font-size: 14px;
+}
+
+.flatpickr-calendar .flatpickr-weekdays {
+  padding: 15px 0 8px;
+  height: 40px !important;
+}
+
+.flatpickr-calendar .flatpickr-day.selected, .flatpickr-calendar .flatpickr-day.startRange, .flatpickr-calendar .flatpickr-day.endRange, .flatpickr-calendar .flatpickr-day.selected.inRange, .flatpickr-calendar .flatpickr-day.startRange.inRange, .flatpickr-calendar .flatpickr-day.endRange.inRange, .flatpickr-calendar .flatpickr-day.selected:focus, .flatpickr-calendar .flatpickr-day.startRange:focus, .flatpickr-calendar .flatpickr-day.endRange:focus, .flatpickr-calendar .flatpickr-day.selected:hover, .flatpickr-calendar .flatpickr-day.startRange:hover, .flatpickr-calendar .flatpickr-day.endRange:hover, .flatpickr-calendar .flatpickr-day.selected.prevMonthDay, .flatpickr-calendar .flatpickr-day.startRange.prevMonthDay, .flatpickr-calendar .flatpickr-day.endRange.prevMonthDay, .flatpickr-calendar .flatpickr-day.selected.nextMonthDay, .flatpickr-calendar .flatpickr-day.startRange.nextMonthDay, .flatpickr-calendar .flatpickr-day.endRange.nextMonthDay {
+  background-color: #FFC20F !important;
+  border-color: #FFC20F !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.flatpickr-calendar .flatpickr-day.inRange {
+  background-color: rgba(255, 194, 15, 0.27);
+  -webkit-box-shadow: -5px 0 0 #ffeebe, 5px 0 0 #ffeebe;
+          box-shadow: -5px 0 0 #ffeebe, 5px 0 0 #ffeebe;
+  border-color: #ffeebe !important;
+}
+
+.flatpickr-calendar .flatpickr-day.today {
+  border-color: #FFC20F;
+}
+
+.flatpickr-calendar .flatpickr-day.today:hover {
+  background-color: #FFC20F !important;
+}
+
+.flatpickr-calendar .flatpickr-day:hover {
+  background-color: #FFC20F !important;
+}
+
+.flatpickr-calendar .startRange, .flatpickr-calendar .selected, .flatpickr-calendar .endrange {
+  color: #1C283A !important;
+}
+
+.flatpickr-calendar .startRange:hover, .flatpickr-calendar .selected:hover, .flatpickr-calendar .endrange:hover {
+  color: #1C283A !important;
+}
+
+.height-auto {
+  min-height: unset !important;
+}
+
+.seller-detail {
+  padding: 20px;
+  background-color: #fff;
+  min-height: calc(100vh - 150px);
+  margin-bottom: 10px;
+  -webkit-box-shadow: 0 0 0 0 rgba(34, 34, 33, 0.3);
+          box-shadow: 0 0 0 0 rgba(34, 34, 33, 0.3);
+  border-radius: 6px;
+}
+
+.seller-detail .card-detail {
+  width: 100%;
+}
+
+.seller-detail .card-detail .card-detal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed #CBCBCB;
+  width: 100%;
+}
+
+.seller-detail .card-detail .card-detal-header .profile-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-right: 40px;
+}
+
+.seller-detail .card-detail .card-detal-header .profile-div .detail-profile {
+  height: 65px;
+  width: 65px;
+  border-radius: 100px;
+  border: 3px solid #CBCBCB;
+}
+
+.seller-detail .card-detail .card-detal-header .profile-div .detail-profile img {
+  width: 100%;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  border: 3px solid #fff;
+}
+
+.seller-detail .card-detail .card-detal-header .profile-div .content {
+  padding: 0 0 0 20px;
+}
+
+.seller-detail .card-detail .card-detal-header .profile-div .content h3 {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-family: "Conv_futuramediumbt";
+  line-height: 24px;
+  color: #373738;
+}
+
+.seller-detail .card-detail .card-detal-header .profile-div .content p {
+  margin-bottom: 0;
+  font-size: 14px;
+  line-height: 24px;
+  color: #373738;
+}
+
+.seller-detail .card-detail .card-detal-header .card-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seller-detail .card-detail .card-detal-header .seller-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.seller-detail .card-detail .card-detal-header .seller-price .seller-info {
+  width: 100%;
+}
+
+.seller-detail .card-detail .card-detal-header .seller-price .seller-info h3 {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: "Conv_futuramediumbt";
+  line-height: 24px;
+  color: #373738;
+}
+
+.seller-detail .card-detail .card-detal-header .seller-price .seller-info p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #373738;
+}
+
+.seller-detail .card-detail .card-detal-header .seller-price .prie-detail p {
+  font-size: 26px;
+  font-family: "Conv_futuramediumbt";
+  line-height: 36px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.seller-detail .card-detail .card-detal-header .order-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.seller-detail .card-detail .card-detal-header .order-info .seller-info {
+  width: 100%;
+}
+
+.seller-detail .card-detail .card-detal-header .order-info .seller-info h3 {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: "Conv_futuramediumbt";
+  line-height: 24px;
+  color: #373738;
+}
+
+.seller-detail .card-detail .card-detal-header .order-info .seller-info p {
+  margin-bottom: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #373738;
+}
+
+.seller-detail .card-detail .card-detal-header .order-info .prie-detail p {
+  font-size: 26px;
+  font-family: "Conv_futuramediumbt";
+  line-height: 36px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.seller-detail .card-detail .card-body {
+  padding: 30px 0;
+}
+
+.seller-detail .card-detail .card-body ul.seller-desc {
+  padding: 0 0 20px 0;
+  margin: 0;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.seller-detail .card-detail .card-body ul.seller-desc li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 18px;
+  line-height: 24px;
+  color: #727272;
+  margin-bottom: 10px;
+  font-family: "Conv_futuramediumbt";
+  padding-left: 40px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.seller-detail .card-detail .card-body ul.seller-desc li::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 2px;
+  height: 19px;
+  width: 19px;
+  background-color: #FFC20F;
+  border: 6px solid #fafafa;
+  border-radius: 100px;
+}
+
+.seller-detail .card-detail .card-body ul.seller-desc li span {
+  width: 50%;
+  display: block;
+  text-align: left;
+  color: #222221;
+  font-family: "Conv_futuramediumbt";
+}
+
+.seller-detail .card-detail .card-body ul.seller-desc li .jn {
+  width: unset !important;
+  display: inline;
+  font-weight: "Conv_Futura Bold";
+}
+
+.seller-detail .card-detail .card-body .chart-section {
+  position: relative;
+}
+
+.seller-detail .card-detail .card-body .chart-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px 15px;
+}
+
+.seller-detail .card-detail .card-body .chart-box .chart-description {
+  padding: 20px;
+  text-align: center;
+}
+
+.seller-detail .card-detail .card-body .chart-box .chart-description h3 {
+  font-family: "Conv_futuramediumbt";
+  font-size: 20px;
+  color: #222221;
+  letter-spacing: 0;
+}
+
+.seller-detail .card-detail .card-body .chart-box .chart-description p {
+  font-family: "Conv_futuramediumbt";
+  font-size: 18px;
+  color: rgba(34, 34, 33, 0.5);
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.seller-detail .card-detail .card-body .order-desc ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.seller-detail .card-detail .card-body .order-desc ul li {
+  display: block;
+  padding: 5px 10px;
+  width: 100%;
+  font-family: "Conv_futuramediumbt";
+}
+
+.seller-detail .card-detail .card-body .order-desc ul li .order-text label {
+  color: #727272;
+  margin-bottom: 6px;
+}
+
+.seller-detail .card-detail .card-body .order-desc ul li .order-text p {
+  margin-bottom: 0;
+}
+
+.seller-detail .card-detail .card-body .order-desc ul li:last-child {
+  text-align: right;
+  padding-right: 0;
+}
+
+.seller-detail .card-detail .card-body .order-desc ul li:first-child {
+  padding-left: 0;
+  max-width: 120px;
+}
+
+.seller-detail .card-detail .card-body .order-desc .product-img {
+  height: 84px;
+  width: 84px;
+  border-radius: 100px;
+  overflow: hidden;
+}
+
+.seller-detail .card-detail .card-body .order-desc .product-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.seller-detail .card-detail .card-body .order-desc .product-2 {
+  height: unset;
+  width: unset;
+}
+
+.seller-detail .card-detail .card-body .order-desc .product-2 a {
+  height: 88px;
+  width: 88px;
+  border-radius: 100px;
+  display: block;
+  border: 2px solid #E8E8E8;
+}
+
+.seller-detail .card-detail .card-body .order-desc .product-2 img {
+  height: 84px;
+  width: 84px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 100px;
+  border: 3px solid #fff;
+  overflow: hidden;
+}
+
+.seller-detail .card-detail .card-body .order-desc .product-detail h3 {
+  font-size: 22px;
+  line-height: 28px;
+  color: #373738;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.seller-detail .card-detail .card-body .order-desc .product-detail p {
+  font-size: 14px;
+  line-height: 16px;
+  color: #727272;
+  margin-bottom: 0;
+}
+
+.h-365 {
+  height: calc(100vh - 365px) !important;
+}
+
+.nav-footer-2 {
+  height: 70px !important;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.nav-footer-2 .fotter-sign-in {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.nav-footer-2 .fotter-sign-in a {
+  padding: 8px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: "Conv_futuramediumbt";
+  color: #CBCBCB;
+  text-decoration: none;
+}
+
+.nav-footer-2 .fotter-sign-in a span {
+  color: #FFC20F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 3px;
+}
+
+.nav-footer-2 .fotter-sign-in a i {
+  position: relative;
+  top: 0px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  margin-left: 20px;
+  font-size: 16px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-footer-2 .fotter-sign-in a:hover i {
+  right: -10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media (max-width: 767px) {
+  .seller-detail .card-detail .card-detal-header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .seller-detail .card-detail .card-detal-header .seller-price {
+    margin-top: 20px;
+  }
+  .seller-detail .card-detail .card-detal-header .order-info {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .order-desc ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .order-desc ul li {
+    padding: 0 !important;
+    text-align: left !important;
+    margin-bottom: 5px;
+    max-width: unset !important;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 992px) {
+  .seller-detail .card-detail .card-detal-header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .seller-detail .card-detail .card-detal-header .seller-price {
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .order-desc ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .order-desc ul li {
+    padding: 0 20px !important;
+    text-align: left !important;
+    margin-bottom: 5px;
+    max-width: unset !important;
+  }
+}
+/*# sourceMappingURL=payout.css.map */

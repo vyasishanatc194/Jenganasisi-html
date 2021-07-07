@@ -1,0 +1,1138 @@
+.bg-img-icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.shopping-bag-icon {
+  height: 21px;
+  width: 16px;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='16px' height='21px' viewBox='0 0 16 21' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eshopping-bag%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='shopping-bag' fill='%23727272' fill-rule='nonzero'%3E%3Cpath d='M15.888465,16.5338218 L14.9931891,5.25147345 C14.9376211,4.52454637 14.3226133,3.95535577 13.5937282,3.95535577 L11.825106,3.95535577 L11.825106,6.57582548 C11.825106,6.90034439 11.5624207,7.16302967 11.2379018,7.16302967 C10.9137744,7.16302967 10.6506976,6.90034439 10.6506976,6.57582548 L10.6506976,3.95535577 L5.24853645,3.95535577 L5.24853645,6.57582548 C5.24853645,6.90034439 4.98545957,7.16302967 4.66133225,7.16302967 C4.33681333,7.16302967 4.07412805,6.90034439 4.07412805,6.57582548 L4.07412805,3.95535577 L2.30550582,3.95535577 C1.57662075,3.95535577 0.961612954,4.52454637 0.906044914,5.24990705 L0.0103773999,16.5353882 C-0.0588966396,17.4392793 0.254657478,18.3388628 0.870409314,19.0035647 C1.48620031,19.6682274 2.35915502,20.0499199 3.26539574,20.0499199 L12.6338774,20.0499199 C13.5401182,20.0499199 14.4130729,19.6682274 15.0288639,19.0035255 C15.6446157,18.3388237 15.9581698,17.4392402 15.888465,16.5338218 Z M10.5951295,10.7883058 L7.55815407,13.8252813 C7.44345443,13.9399809 7.29311919,13.9975069 7.14282311,13.9975069 C6.99248787,13.9975069 6.84219179,13.9399809 6.72749216,13.8252813 L5.30414365,12.4019328 C5.07474437,12.1725335 5.07474437,11.8010226 5.30414365,11.5716233 C5.53354292,11.342224 5.90544544,11.342224 6.13445312,11.5716233 L7.14286227,12.5796408 L9.76485922,9.95764389 C9.99386689,9.72863622 10.3657694,9.72863622 10.5951687,9.95764389 C10.8245288,10.1870432 10.8245288,10.5589065 10.5951295,10.7883058 Z' id='Shape'%3E%3C/path%3E%3Cpath d='M7.94963659,0 C5.81263624,0 4.07416721,1.73886063 4.07416721,3.87586097 L4.07416721,3.95531661 L5.24857561,3.95531661 L5.24857561,3.87586097 C5.24857561,2.38633206 6.46014684,1.17436923 7.94967575,1.17436923 C9.43920466,1.17436923 10.6507759,2.38633206 10.6507759,3.87586097 L10.6507759,3.95531661 L11.8251451,3.95531661 L11.8251451,3.87586097 C11.8251451,1.73886063 10.0866369,0 7.94963659,0 Z' id='Path'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.logistic-management-section .logistic-management-header .action-side .list-action-link-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box {
+  margin: 0 0 0 20px;
+}
+
+.logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box a i {
+  color: #727272;
+}
+
+.logistic-management-section .lo-management-header .breadcrumb-section.breadcrumb-lo {
+  border-bottom: 0 solid #e8e8e8;
+}
+
+.logistic-management-section .lo-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item {
+  padding: 0 10px 0 35px;
+  position: relative;
+}
+
+.logistic-management-section .lo-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item::before {
+  position: absolute;
+  top: 9px;
+  left: 0;
+}
+
+.logistic-management-section .lo-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item:first-child {
+  padding-left: 0;
+}
+
+.logistic-management-section .lo-management-header .btn-primary-back {
+  background-color: #ffc20f;
+  width: 100%;
+  font-family: "Conv_futuramediumbt";
+  height: 50px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+  height: 35px !important;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.logistic-management-section .lo-management-header .action-side-right {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 240px;
+}
+
+.logistic-management-section .lo-management-header .action-side-right .add-product {
+  width: 100%;
+}
+
+.logistic-management-section .admin-search-logistic .btn-save-div {
+  padding-bottom: 16px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.logistic-management-section .admin-search-logistic .btn-save-div .btn-save.btn-save.btn-add-user {
+  max-width: 100px;
+}
+
+.logistic-management-section .logistic-table-admin-body {
+  margin: 0 0 60px 0;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-tbl-lbl-amount {
+  text-align: left !important;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-tbl-lbl-amount .dollar-color-text {
+  color: #ffc20f !important;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-appointment-action .btns-action .btn-delete-action,
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-appointment-action .btns-action .btn-edit-action {
+  min-width: 58px;
+  text-align: center !important;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-appointment-action .center-action-lm {
+  text-align: center;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .box-log-order-bx-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .box-log-order-bx-root .text-content-box-log-order-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 25px 0 0;
+  min-width: 140px;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .box-log-order-bx-root .text-content-box-log-order-bx .block {
+  width: 100%;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .box-log-order-bx-root .product-service-mgmt {
+  min-width: 376px;
+}
+
+.modal-lm-user .custom-control-root-div .custom-radio {
+  width: 100%;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.modal-lm-user .modal-dialog .modal-content .modal-request-quote.modal-footer .btns-request-quotation .btn-in-activate {
+  min-width: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination-datatatable-bottom {
+  padding: 0 15px;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 295px);
+  z-index: 9999;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-bottom-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  background: #fdfdfd;
+  -webkit-box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list {
+  padding: 13px 20px;
+  margin: 0;
+  position: relative;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li {
+  margin: 0 5px;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8e98a0;
+  padding: 3px 15px 1px 10px;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li p .bold-span {
+  color: #071c2e;
+  font-family: "Conv_Futura Bold";
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li a.btn-pg-round {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffc20f;
+  color: #fff;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li a.btn-pg-round.btn-pg-round-transparent {
+  background-color: transparent;
+  color: #666;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li a.btn-pg-round.btn-disabled {
+  background-color: #cbcbcb;
+}
+
+.logistic-order-tracking-section {
+  min-height: calc(100vh - 93px);
+}
+
+.logistic-info-section .logistic-table-info .showcase-table-info ul li a.text-italic {
+  font-style: italic;
+}
+
+.logistic-info-section .logistic-table-info .showcase-table-info ul li a.text-underline {
+  text-decoration: underline;
+}
+
+.logistic-info-section .logistic-om-table-admin-body {
+  margin: 0 0 60px 0;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-tbl-lbl-amount {
+  text-align: left !important;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-tbl-lbl-amount .dollar-color-text {
+  color: #ffc20f !important;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-appointment-action .btns-action .btn-delete-action,
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-appointment-action .btns-action .btn-edit-action {
+  min-width: 58px;
+  text-align: center !important;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-appointment-action .center-action-lm {
+  text-align: center;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .box-log-order-bx-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .box-log-order-bx-root .text-content-box-log-order-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 25px 0 0;
+  min-width: 140px;
+  width: 30%;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .box-log-order-bx-root .text-content-box-log-order-bx .block {
+  width: 100%;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .box-log-order-bx-root .product-service-mgmt {
+  min-width: 376px;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .service-input .dollar span {
+  color: #cbcbcb;
+}
+
+.logistic-dash-section {
+  padding: 20px 0 0 0;
+}
+
+.middle-section .middle-inner .logistic-dash-section .page-controller-admin .page-controller-inner .product-chart-box .chart-footer {
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+}
+
+.middle-section .middle-inner .logistic-dash-section .page-controller-admin .page-controller-inner .product-chart-box .chart-footer .btn {
+  margin-right: 10px;
+}
+
+.middle-section .middle-inner .logistic-dash-section .page-controller-admin .page-controller-inner .product-chart-box .chart-footer .btn:last-child {
+  margin-right: 0;
+}
+
+.middle-section .middle-inner .logistic-dash-section .page-controller-admin .page-controller-inner .product-chart2 h3 {
+  margin: 0 0 25px 0;
+}
+
+.middle-section .middle-inner .plm-section .seller-management-header {
+  border: none;
+  padding: 0 10px;
+}
+
+.middle-section .middle-inner .plm-section .admin-search-seller {
+  padding-top: 0;
+}
+
+.middle-section .middle-inner .plm-section .admin-search-seller .btn-new-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffc20f;
+  letter-spacing: 0;
+  text-align: right;
+  font-family: "Conv_futuramediumbt";
+  text-decoration: none;
+  min-height: 35px;
+}
+
+.middle-section .middle-inner .plm-section.table-root .table-admin tbody tr td .text-center-align {
+  text-align: center;
+}
+
+.middle-section .middle-inner .plm-section.table-root .table-admin tbody tr td .text-center-align p {
+  margin: 0;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .orderdetail-header {
+  border-bottom: none;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .orderdetail-info .order-id-header {
+  width: 100%;
+  padding: 5px 30px 4px 30px;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .order-body {
+  padding-bottom: 20px;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-tp h3 {
+  font-size: 22px;
+  color: #222221;
+  letter-spacing: 0;
+  font-family: "Conv_futuramediumbt";
+  margin-bottom: 15px;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group textarea.form-control {
+  min-height: 110px;
+  resize: none;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .select2-row {
+  width: 100%;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .select2-row span.select2.select2-container.select2-container--default {
+  width: 100% !important;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .select2-row .select2-container .select2-selection--single {
+  padding: 11px 0 4px 3px;
+  height: 50px;
+  border: 1px solid #dddddd;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .select2-row .select2-container--default .select2-selection--single .select2-selection__arrow b {
+  margin-left: -15px;
+  margin-top: 10px;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .custom-file {
+  height: 50px;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .custom-file .custom-file-input {
+  display: none;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .custom-file .custom-file-input:lang(en) ~ .custom-file-label::after {
+  content: "Choose file";
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .custom-file .custom-file-label::after {
+  height: 32px;
+  padding: 4px 12px;
+  line-height: 1.5;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  content: "Choose file";
+  background-color: #222221;
+  border-radius: 0;
+  top: 8px;
+  right: 8px;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .form-group .custom-file label.custom-file-label {
+  border: 1px dashed #8e8e8e;
+  height: 50px;
+  padding: 15px 100px 10px 12px;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .pro-report-status-lg-div .pro-report-status-lg-bd .general-form-div .btn.btn-submit {
+  background-color: #ffc20f;
+  width: 100%;
+  font-family: "Conv_futuramediumbt";
+  height: 50px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  border-radius: 0;
+  padding: 10px 0.75rem 7px 0.75rem;
+  white-space: nowrap;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section {
+  padding-bottom: 0;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-inner .chat-le-root-tp-div .heading-div {
+  width: 100%;
+  padding: 5px 30px 4px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 30px;
+  background: rgba(34, 34, 33, 0.5);
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-inner .chat-le-root-tp-div .heading-div h3 {
+  color: #fafafa;
+  margin-bottom: 0;
+  line-height: 20px;
+  font-family: "Conv_futuramediumbt";
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message {
+  background-color: #fff;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .sort.sort-dv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 0 20px 0;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .sort.sort-dv h3 {
+  margin: 1px 14px 0 0;
+  color: rgba(34, 34, 33, 0.3);
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Conv_futuramediumbt";
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .sort.sort-dv .select-search .select2-container {
+  width: 100% !important;
+  min-width: 130px;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .sort.sort-dv [class^="select2"] {
+  border-radius: 0px !important;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .sort.sort-dv .select-search .select2-container--default .select2-selection--single {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: "Conv_futuramediumbt";
+  font-size: 14px;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0;
+  white-space: nowrap;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .sort.sort-dv .select-search .select2-container--default .select2-selection--single .select2-selection__rendered {
+  white-space: nowrap;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .chat-group .chat-message-body .chat-message-body-inner {
+  min-height: calc(100vh - 400px);
+  max-height: calc(100vh - 400px);
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .chat-group .chat-message-body .chat-message-body-inner .message-received .message-text {
+  background-color: #e8e8e8;
+  padding: 10px 15px;
+  border: 1px solid #e8e8e8;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .chat-message .chat-message-footer .chat-tools .btn-send {
+  top: 9px;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .open-chat-box-div {
+  display: none;
+}
+
+.middle-section .middle-inner .chat-le-root-div .chat-section .open-chat-box-div .btn.btn-primary {
+  background-color: #ffc20f;
+  width: 100%;
+  font-family: "Conv_futuramediumbt";
+  height: 50px;
+  -webkit-box-shadow: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #000000;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 27px;
+  border-radius: 0;
+  padding: 10px 0.75rem 7px 0.75rem;
+  white-space: nowrap;
+  border: none;
+}
+
+.header-legal-accout {
+  margin-top: 0;
+}
+
+.header-legal-accout .navbar {
+  margin-top: 0;
+  -webkit-box-shadow: 0 2px 54px 0 #f7f7f8;
+          box-shadow: 0 2px 54px 0 #f7f7f8;
+  border-bottom: 0;
+}
+
+.header-legal-accout .navbar .collapse1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60px;
+}
+
+.header-legal-accout .navbar .collapse1 .mobile-menu {
+  display: block !important;
+}
+
+.header-legal-accout .navbar .collapse1 .mobile-menu .account-links {
+  display: block;
+}
+
+.header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul {
+  display: block;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li {
+  list-style: none;
+  display: inline-block;
+  border-right: 2px solid #cbcbcb;
+}
+
+.header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li a {
+  font-size: 17px;
+  color: #222221;
+  letter-spacing: 0;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 20px;
+  font-family: "Conv_futuramediumbt";
+  text-decoration: none;
+  position: relative;
+}
+
+.header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: -6px;
+  left: 0px;
+  right: 0;
+  background: #ffc20f;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: 0.25s linear;
+  transition: 0.25s linear;
+}
+
+.header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li a:hover:after {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li:last-child {
+  border-right: 0px;
+}
+
+.table-responsive.table-responsive-new table.dataTable thead .sorting:before,
+.table-responsive.table-responsive-new table.dataTable thead .sorting_asc:before,
+.table-responsive.table-responsive-new table.dataTable thead .sorting_desc:before,
+.table-responsive.table-responsive-new table.dataTable thead .sorting_asc_disabled:before,
+.table-responsive.table-responsive-new table.dataTable thead .sorting_desc_disabled:before {
+  display: none;
+}
+
+.table-responsive.table-responsive-new table.dataTable thead .sorting:after,
+.table-responsive.table-responsive-new table.dataTable thead .sorting_asc:after,
+.table-responsive.table-responsive-new table.dataTable thead .sorting_desc:after,
+.table-responsive.table-responsive-new table.dataTable thead .sorting_asc_disabled:after,
+.table-responsive.table-responsive-new table.dataTable thead .sorting_desc_disabled:after {
+  display: none;
+}
+
+.line-block {
+  display: block;
+}
+
+.middle-section .middle-inner .table-no-checkbox thead tr th {
+  padding: 7px 20px 3px 12px;
+}
+
+.middle-section .middle-inner .table-no-checkbox .number-date-txt-td span u {
+  color: #222221;
+}
+
+.middle-section .middle-inner .table-no-checkbox .pro-details-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  min-width: 200px;
+}
+
+.middle-section .middle-inner .table-no-checkbox .pro-details-div .product-tbl-description {
+  padding: 0 0 0 20px;
+  width: calc(100% - 70px);
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-mgmt-table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-mgmt-table .Product-content-img {
+  padding: 0 0px;
+  margin-right: 10px;
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  border-radius: 100px;
+  border: 2px solid #cbcbcb;
+  background-color: #fafafa;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-mgmt-table .Product-content-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  border: 3px solid #fff;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-mgmt-table .Product-content {
+  min-width: 240px;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-mgmt-table .Product-content h3 {
+  font-size: 16px;
+  color: #373738;
+  letter-spacing: 0;
+  font-family: "Conv_futuramediumbt";
+  margin: 0;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  max-width: 98%;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-mgmt-table .Product-content a {
+  display: block;
+  text-decoration: none;
+  color: #373738;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-mgmt-table .Product-content p {
+  font-size: 12px;
+  color: #727272;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.middle-section .middle-inner .table-no-checkbox .service-input {
+  white-space: nowrap;
+}
+
+.middle-section .middle-inner .table-no-checkbox .service-input span {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.middle-section .middle-inner .table-no-checkbox .service-input .form-control {
+  min-width: 70px;
+  background: #fafafa;
+  border: 1px solid #979797;
+  -webkit-box-shadow: inset 0 1px 3px 0 #0000002b;
+          box-shadow: inset 0 1px 3px 0 #0000002b;
+  border-radius: 0;
+  text-align: left;
+  font-size: 12px;
+  color: #222221;
+  letter-spacing: 0;
+  height: 32px;
+}
+
+.middle-section .middle-inner .table-no-checkbox .active .form-control {
+  background: rgba(119, 179, 66, 0.1);
+  border: 1px solid #77b342;
+  -webkit-box-shadow: inset 0 1px 3px 0 #0000002b;
+          box-shadow: inset 0 1px 3px 0 #0000002b;
+  font-size: 14px;
+  color: #77b342;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.middle-section .middle-inner .table-no-checkbox .product-tbl-description.legal-single-tbl-description {
+  min-width: 180px;
+}
+
+.middle-section .middle-inner .table-no-checkbox tbody tr td .legal-action-div {
+  padding-top: 0;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-action-div {
+  padding-top: 0;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-action-div .view-details-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-width: 80px;
+}
+
+.middle-section .middle-inner .table-no-checkbox .legal-action-div .view-details-link .fe.fe-chevron-right {
+  margin: 0 0 0 5px;
+}
+
+.middle-section .middle-inner .legal-tabele-section .product-tabs {
+  padding: 0 0 55px 0;
+}
+
+@media (min-width: 768px) {
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li {
+    width: 33%;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li:last-child {
+    width: 17.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side a {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side {
+    margin: 0 0 15px 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box {
+    margin-left: 0;
+    width: 100%;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box:first-child {
+    margin-left: 0;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li.done::after {
+    top: 0;
+    left: -38px;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .action-side {
+    padding: 10px 0 0 0;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .title ul li a {
+    font-size: 14px !important;
+    padding: 10px 5px !important;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul li {
+    padding: 0;
+    border-left: 0 solid #cbcbcb;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul li:first-child {
+    padding: 0 10px 0 0;
+  }
+  .modal.modal-lm-user .modal-dialog .modal-content .modal-body .add-payment-card h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+  .pagination-datatatable-bottom {
+    width: 100%;
+  }
+  .modal-lm-user .modal-dialog .modal-content .modal-request-quote.modal-footer .btns-request-quotation .btn-in-activate {
+    min-width: auto;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .menu-cloned-three {
+    display: block !important;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links {
+    margin-top: 0;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul {
+    padding: 30px 0;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li {
+    display: block;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li a {
+    width: 100%;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li a::after {
+    display: none;
+  }
+  .middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .orderdetail-info .order-id-header {
+    padding: 5px 15px 4px 15px;
+  }
+  .middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .orderdetail-header {
+    border-bottom: none;
+    padding: 15px 15px;
+  }
+  .middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .orderdetail-header .order-price {
+    display: block;
+    text-align: left !important;
+    margin: 10px 0 0 0;
+  }
+  .middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .orderdetail-header .order-price P {
+    font-size: 21px;
+  }
+  .middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .orderdetail-header .select2-container .select2-selection--single .select2-selection__rendered {
+    padding-left: 0;
+  }
+  .middle-section .middle-inner .legal-dashboard-summary-section .legal-order-tracking-section .orderdetail-info .order-id-header .select-status {
+    display: none;
+  }
+  .middle-section .middle-inner .chat-le-root-div .chat-section .open-chat-box-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px;
+    margin: 0 0 20px 0;
+  }
+  .middle-section .middle-inner .chat-le-root-div .chat-section .chat-inner .chat-le-root-tp-div .heading-div {
+    width: 100%;
+    padding: 5px 15px 4px 15px;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1) and (max-device-width: 1024px) and (min-device-width: 768px) and (orientation: portrait) {
+  .header-legal-accout .navbar .collapse1 {
+    height: auto;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu {
+    height: 100vh;
+  }
+  .header-legal-accout .navbar .navbar-toggler {
+    top: -10px;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links {
+    margin-top: 0;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul {
+    padding: 30px 0;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li {
+    display: block;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li a {
+    width: 100%;
+    display: block;
+    text-align: left;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li a::after {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  .header-legal-accout .navbar .collapse1 .mobile-menu .account-links ul li a {
+    font-size: 14px;
+    padding: 0 14px;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side {
+    margin: 0 0 15px 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box:first-child {
+    margin-left: 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo {
+    padding: 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item {
+    padding: 0 0 0 25px;
+    font-size: 14px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item a {
+    font-size: 14px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item::before {
+    padding: 7px 0 0 3px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item:first-child {
+    padding-left: 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .lo-management-header .title {
+    width: auto;
+  }
+  .middle-section .middle-inner .logistic-management-section .lo-management-header .action-side-right {
+    max-width: 210px;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .action-side {
+    padding: 10px 0 0 0;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .title {
+    margin: 0 0 -13px 0;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .title ul {
+    border-bottom: 0 solid #dee2e6;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .title ul li a {
+    font-size: 14px !important;
+    padding: 10px 5px !important;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul li {
+    padding: 0;
+    border-left: 0 solid #cbcbcb;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul li:first-child {
+    padding: 0 10px 0 0;
+  }
+  .pagination-datatatable-bottom {
+    width: 100%;
+  }
+  .modal-lm-user .modal-dialog .modal-content .modal-request-quote.modal-footer .btns-request-quotation .btn-in-activate {
+    min-width: 210px;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li:last-child p {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li .btn-track {
+    padding: 5px 8px;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .order-body .create-product-note p {
+    line-height: 20px;
+  }
+}
+/*# sourceMappingURL=legal-account-custom.css.map */

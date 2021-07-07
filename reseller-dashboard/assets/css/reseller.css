@@ -3612,6 +3612,48 @@
   }
 }
 
+.middle-section .middle-inner .page-controller .page-controller-inner .my-payout-div {
+  padding: 25px 22px;
+  background-color: #fff;
+  border: 1px solid #E1E1E1;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+.middle-section .middle-inner .page-controller .page-controller-inner .my-payout-div a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-decoration: none;
+}
+
+.middle-section .middle-inner .page-controller .page-controller-inner .my-payout-div p {
+  font-size: 14px;
+  color: #222221;
+  line-height: 28px;
+  margin-bottom: 0;
+  font-family: "Conv_futuramediumbt";
+}
+
+.middle-section .middle-inner .page-controller .page-controller-inner .my-payout-div h3 {
+  color: #FFC20F;
+  font-size: 22px;
+  line-height: 24px;
+  font-family: "Conv_futuramediumbt";
+}
+
+.middle-section .middle-inner .page-controller .page-controller-inner .my-payout-div i {
+  font-size: 24px;
+  font-weight: 800;
+  color: #CBCBCB;
+}
+
 .middle-section .middle-inner .store-showcase-section .showcase-tabs {
   z-index: 1;
   position: relative;

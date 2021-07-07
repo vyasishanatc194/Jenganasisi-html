@@ -1,0 +1,1969 @@
+<!doctype html>
+<html lang="en" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Jenga Nasisi">
+  <meta name="author" content="Jenga Nasisi">
+  <meta name="generator" content="">
+  <title>Dispute Management | JengaNasisi</title>
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/css/owl.carousel.min.css" rel="stylesheet">
+  <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="../assets/css/custom.css" rel="stylesheet">
+  <link href="../reseller-dashboard/assets/css/reseller.css" rel="stylesheet">
+  <link href="assets/css/admin-dashboard.css" rel="stylesheet">
+  <link href="../assets/css/animate.css" rel="stylesheet">
+  <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../assets/css/feather.min.css" rel="stylesheet">
+  <link href="../assets/css/select2.min.css" rel="stylesheet">
+  <link href="../assets/css/dataTables.bootstrap4.min.css.min.css" rel="stylesheet">
+  <link href="../assets/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link href="../assets/css/flag.css" rel="stylesheet">
+  <link href="../assets/css/range-slider.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../assets/css/bootstrap-datepicker.min.css" rel="stylesheet">
+
+  <link href="assets/css/logistic-admin-dashboard.css" rel="stylesheet">
+  <link href="assets/css/dispute-admin-dasboard.css" rel="stylesheet">
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+  <!-- top header-->
+
+
+  <header class="header header-reseller hader-dashboard">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark ">
+      <div class="container-fluid">
+        <div class="row col-header">
+
+          <div class="col-lg-12 col-12">
+            <div class="nav-dashboard">
+              <div class="resellear-welcome-content">
+                <h3>Hello <span>Simon jhonson</span></h3>
+              </div>
+              <button class="navbar-toggler" id="menu-open" type="button">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse1 navbar-collapse sidenav-new-menu" id="mySidenav2">
+                <a href="javascript:void(0)" class="closebtn" id="menu-closed">&times;</a>
+                <div class="mobile-menu">
+                  <!-- cloned -->
+                  <div class="account-links">
+                    <ul>
+
+                      <li class="dropdown dropdown-notification">
+                        <a href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false"><i class="material-icons">
+                            notifications_none
+                          </i><span class="text-notifiaction">Notification</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <div class="dropdown-menuinner">
+                            <h3>Today</h3>
+                            <ul>
+                              <li><a href="#" class="notification-row">
+                                  <div class="user-profile">
+                                    <span class="circle">
+                                      <i class="fe fe-user"></i>
+                                    </span>
+                                  </div>
+                                  <div class="user-content">
+                                    <h3>Profile update</h3>
+                                    <p>Please update your profile and create
+                                      student profile with full bio thanks.</p>
+                                    <div class="noti-time">
+                                      <span>May 17, 2019</span>
+                                      <span>10:00PM</span>
+                                    </div>
+                                  </div>
+                                </a></li>
+                              <li><a href="#" class="notification-row">
+                                  <div class="user-profile">
+                                    <span class="circle">
+                                      <i class="fe fe-activity"></i>
+                                    </span>
+                                  </div>
+                                  <div class="user-content">
+                                    <h3>Check new request</h3>
+                                    <p>Please update your profile and create
+                                      student profile with full bio thanks.</p>
+                                    <div class="noti-time">
+                                      <span>May 17, 2019</span>
+                                      <span>10:00PM</span>
+                                    </div>
+                                  </div>
+                                </a></li>
+                              <li><a href="#" class="notification-row">
+                                  <div class="user-profile">
+                                    <span class="circle circle-gray">
+                                      <i class="fe fe-award"></i>
+                                    </span>
+                                  </div>
+                                  <div class="user-content">
+                                    <h3>12 Buyer is intrested</h3>
+                                    <p>Please update your profile and create
+                                      student profile with full bio thanks.</p>
+                                    <div class="noti-time">
+                                      <span>May 17, 2019</span>
+                                      <span>10:00PM</span>
+                                    </div>
+                                  </div>
+                                </a></li>
+                            </ul>
+                            <h3>Yesterday</h3>
+                            <ul>
+                              <li><a href="#" class="notification-row">
+                                  <div class="user-profile">
+                                    <span class="circle circle-gray">
+                                      <i class="fe fe-award"></i>
+                                    </span>
+                                  </div>
+                                  <div class="user-content">
+                                    <h3>12 Buyer is intrested</h3>
+                                    <p>Please update your profile and create
+                                      student profile with full bio thanks.</p>
+                                    <div class="noti-time">
+                                      <span>May 17, 2019</span>
+                                      <span>10:00PM</span>
+                                    </div>
+                                  </div>
+                                </a></li>
+                            </ul>
+                          </div>
+                          <a href="#" class="all-notification">
+                            Achieved all
+                          </a>
+                        </div>
+
+
+                      </li>
+                      <li class="dropdown dropdown-reseller userdropdown-arrow">
+                        <a href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                          <span><img src="assets/images/Userpic.png" alt=""></span>Jhon Doe</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <ul>
+                            <li><a href="#">Profile setting</a></li>
+                            <li><a href="#">Change password</a></li>
+                            <li><a href="#">Upgrade</a></li>
+                            <li><a href="#">Bussines tips</a></li>
+                            <li class="logout-link"><a href="#">logout</a></li>
+                          </ul>
+
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+
+
+                  <div class="menu-cloned-three" id="menu-cloned-three">
+
+                  </div>
+
+                </div>
+              </div>
+              <div id="cd-shadow-layer" class="menu-closed" style="display: none;"></div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- header end -->
+  <div class="right-sidenav right-side-admin">
+    <div class="rightside-nav-inner">
+      <div class="nav-logo-section">
+        <a href="dashboard.html" class="dash-logo">
+          <img src="assets/images/logo.png" class="logo-one" alt="">
+          <img src="assets/images/logo.png" class="logo-two" alt="">
+          <h3>Admin Account</h3>
+        </a>
+        <div class="btn-collaps-nav">
+          <a href="#" id="collapse-nav"><i class="fe fe-bar-chart"></i></a>
+        </div>
+      </div>
+
+      <div class="rightside-menu" id="dashboard-menu-clone">
+        <div class="rightside-inner">
+          <div class="side-nav-item accordion " id="menu-collapse">
+            <ul>
+              <li class="nav-item ">
+                <a class="nav-link nav-toggle " href="dashboard.html">
+                  <span class="icon-nav">
+                    <i class="material-icons ">
+                      dashboard
+                    </i>
+                  </span>
+                  <span class="text-collaps-menu">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-toggle " href="user-management.html">
+                  <span class="icon-nav">
+                    <i class="material-icons ">
+                      supervisor_account
+                    </i>
+                  </span>
+                  <span class="text-collaps-menu">User management</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nav-toggle" href="seller-management.html">
+                  <span class="icon-nav">
+                    <i class="material-icons">
+                      storefront
+                    </i>
+                  </span>
+                  <span class="text-collaps-menu">Seller management</span>
+                </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link nav-toggle " href="service-management.html">
+                  <span class="icon-nav ">
+                    <i class="icon-img icon-service-mgmt"></i>
+                  </span>
+                  <span class="text-collaps-menu">Service management</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nav-toggle" href="logistic-management.html">
+                  <span class="icon-nav ">
+                    <i class="material-icons"> local_shipping </i>
+                  </span>
+                  <span class="text-collaps-menu">Logistic Management</span>
+                </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link nav-toggle active" href="logistic-management.html">
+                  <span class="icon-nav ">
+                    <i class="material-icons"> notes </i>
+                  </span>
+                  <span class="text-collaps-menu">Dispute Management</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nav-toggle" href="notification-setup.html">
+                  <span class="icon-nav">
+                    <i class="material-icons">
+                      notifications_active
+                    </i>
+                  </span>
+                  <span class="text-collaps-menu">Notification setup</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nav-toggle" href="payment-history.html">
+                  <span class="icon-nav">
+                    <i class="material-icons">
+                      attach_money
+                    </i>
+                  </span>
+                  <span class="text-collaps-menu">Payment history <span class="tag">02</span>
+                </a>
+              </li>
+
+              <li class="nav-item ">
+                <a class="nav-link nav-toggle " href="plan-menagement.html">
+                  <span class="icon-nav ">
+                    <i class="icon-img icon-manage-quote"></i>
+                  </span>
+                  <span class="text-collaps-menu">Plan management</span>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nav-toggle" href="buisness-tips.html">
+                  <span class="icon-nav ">
+                    <i class="icon-img icon-tips"></i>
+                  </span>
+                  <span class="text-collaps-menu">Business tips</span>
+                </a>
+              </li>
+
+
+
+              <li class="nav-item">
+                <a class="nav-link nav-toggle" href="user-setting.html">
+                  <span class="icon-nav">
+                    <i class="material-icons">
+                      settings_applications
+                    </i>
+                  </span>
+                  <span class="text-collaps-menu">setting</span>
+                </a>
+              </li>
+
+
+              <li class="nav-item">
+                <a class="nav-link nav-toggle" href="message.html">
+                  <span class="icon-nav">
+                    <i class="material-icons">
+                      question_answer
+                    </i>
+                  </span>
+                  <span class="text-collaps-menu">Message center</span>
+                </a>
+              </li>
+
+
+              <!-- <li class="nav-item">
+                <a class="nav-link nav-toggle" href="#category-three" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="category-three">
+                <span class="text-collaps-menu">Categories 003</span>
+                </a>
+                <div class="collapse" id="category-three" style="" data-parent="#menu-collapse">
+                  <ul class="nav sub-nav ">
+                    <li class="nav-item ">
+                        <a href="#!" class="nav-link ">
+                          <span class="text-collaps-menu">Sub category 001</span>
+                        </a>
+                    </li> 
+                    <li class="nav-item ">
+                      <a href="#!" class="nav-link ">
+                        <span class="text-collaps-menu">Sub category 002</span>
+                      </a>
+                  </li>                             
+                </ul>
+                </div>
+              </li> -->
+
+            </ul>
+          </div>
+
+          <div class="nav-footer">
+            <ul>
+              <li>
+                <a href="#">Visit website</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Begin page content -->
+  <main role="main" class="flex-shrink-0 middle-section reseller-dashboard">
+    <div class="middle-inner">
+
+
+      <section class="admin-dash-section table-root">
+        <div class="dashboard-summary-inner admin-dash-inner">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-xl-12 col-lg-12">
+
+                <div class="producttabele-section legal-tabele-section dispute-mng-table-section">
+                  <div class="producttabele-inner">
+
+                    <div class="product-tabs">
+                      <div class="product-tabs-div">
+                        <ul class="nav nav-tabs">
+                          <li><a data-toggle="tab" href="#new-dispute" class="active">New</a></li>
+                          <li><a data-toggle="tab" href="#open-dispute">Open Dispute</a></li>
+                          <li><a data-toggle="tab" href="#closed-dispute">Closed Dispute</a></li>
+                        </ul>
+                        <div class="add-product">
+                          <a href="#" data-target="#add-legal-department" data-toggle="modal"><i class="material-icons">
+                            add
+                            </i>Add Legal Department</a>
+                        </div>
+                      </div>
+
+                      <div class="product-tab-content">
+                        <div id="new-dispute" class="tab-pane fade">
+
+                          <div class="product-search-header">
+                            <div class="row">
+                              <div class="col-xl-3 col-lg-6 col-md-7">
+                                <div class="form-group">
+                                  <label>Search User</label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="basic-addon1"><i
+                                          class="fe fe-search"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control"
+                                      placeholder="User Id, Email, Name, Account" />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-xl-2 col-lg-6 col-md-5">
+                                <div class="form-group">
+                                  <label>Product</label>
+                                  <input type="text" class="form-control" placeholder="Enter Products" />
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div class="table-responsive table-responsive-new">
+                            <!-- table start -->
+                            <table id="product-table-new" class="table no-footer table-product-resell table-admin datatable-responsive table-no-checkbox w-100">
+                              <thead>
+                                <tr>
+                                  <th class="pl-cust">Case no.</th>
+                                  <th class="">Product Detail</th>
+                                  <th class="">User name, detail</th>
+                                  <th class="sorting-none">Vendor Name</th>
+                                  <th class="sorting-none pr-cust text-right">Action</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="seller-mgmt-table legal-mgmt-table">
+                                      <div class="Product-content-img ">
+                                        <img src="assets/images/profile.png" alt="">
+                                      </div>
+                                      <div class="Product-content">
+                                        <a href="#">
+                                          <h3>Babila Ebwélé</h3>
+                                        </a>
+                                        <p> <i>User@gmail.com</i> </p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="service-action assign-action-div">
+                                      <div class="btns-action">
+                                        <a href="#" class="btn btn-service" data-target="#assign-modal" data-toggle="modal">Assign</a>
+                                      </div>
+                                
+                                      <a href="#" class="btn-arrow-right-link" data-toggle="collapse" data-target="#demo">View details<i class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="seller-mgmt-table legal-mgmt-table">
+                                      <div class="Product-content-img ">
+                                        <img src="assets/images/profile.png" alt="">
+                                      </div>
+                                      <div class="Product-content">
+                                        <a href="#">
+                                          <h3>Babila Ebwélé</h3>
+                                        </a>
+                                        <p> <i>User@gmail.com</i> </p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="service-action assign-action-div">
+                                      <div class="btns-action">
+                                        <a href="#" class="btn btn-service" data-target="#assign-modal" data-toggle="modal">Assign</a>
+                                      </div>
+                                
+                                      <a href="#" class="btn-arrow-right-link" data-toggle="collapse" data-target="#demo">View details<i class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="seller-mgmt-table legal-mgmt-table">
+                                      <div class="Product-content-img ">
+                                        <img src="assets/images/profile.png" alt="">
+                                      </div>
+                                      <div class="Product-content">
+                                        <a href="#">
+                                          <h3>Babila Ebwélé</h3>
+                                        </a>
+                                        <p> <i>User@gmail.com</i> </p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="service-action assign-action-div">
+                                      <div class="btns-action">
+                                        <a href="#" class="btn btn-service" data-target="#assign-modal" data-toggle="modal">Assign</a>
+                                      </div>
+                                
+                                      <a href="#" class="btn-arrow-right-link" data-toggle="collapse" data-target="#demo">View details<i class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="seller-mgmt-table legal-mgmt-table">
+                                      <div class="Product-content-img ">
+                                        <img src="assets/images/profile.png" alt="">
+                                      </div>
+                                      <div class="Product-content">
+                                        <a href="#">
+                                          <h3>Babila Ebwélé</h3>
+                                        </a>
+                                        <p> <i>User@gmail.com</i> </p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="service-action assign-action-div">
+                                      <div class="btns-action">
+                                        <a href="#" class="btn btn-service" data-target="#assign-modal" data-toggle="modal">Assign</a>
+                                      </div>
+                                
+                                      <a href="#" class="btn-arrow-right-link" data-toggle="collapse" data-target="#demo">View details<i class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="seller-mgmt-table legal-mgmt-table">
+                                      <div class="Product-content-img ">
+                                        <img src="assets/images/profile.png" alt="">
+                                      </div>
+                                      <div class="Product-content">
+                                        <a href="#">
+                                          <h3>Babila Ebwélé</h3>
+                                        </a>
+                                        <p> <i>User@gmail.com</i> </p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="service-action assign-action-div">
+                                      <div class="btns-action">
+                                        <a href="#" class="btn btn-service" data-target="#assign-modal" data-toggle="modal">Assign</a>
+                                      </div>
+                                
+                                      <a href="#" class="btn-arrow-right-link" data-toggle="collapse" data-target="#demo">View details<i class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                              </tbody>
+                            </table>
+                            <!-- end table -->
+
+                            <div class="pagination-datatatable-bottom">
+                              <div class="pagination-datatatable-bottom-inner">
+
+                                <ul class="pagination-datatatable-list">
+                                  <li> <a href="#" class="btn-pg-round btn-disabled"> <i class="fe fe-arrow-left"></i>
+                                    </a> </li>
+                                  <li> <a href="#" class="btn-pg-round btn-pg-round-transparent"> <i
+                                        class="fe fe-chevrons-left"></i> </a> </li>
+                                  <li>
+                                    <p> <span class="bold-span">1-5</span> of 200</p>
+                                  </li>
+                                  <li> <a href="#" class="btn-pg-round"> <i class="fe fe-arrow-right"></i> </a> </li>
+                                  <li> <a href="#" class="btn-pg-round"> <i class="fe fe-chevrons-right"></i> </a> </li>
+                                </ul>
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div id="open-dispute" class="tab-pane fade in active show">
+
+                          <div class="product-search-header">
+                            <div class="row">
+                              <div class="col-xl-3 col-lg-6 col-md-7">
+                                <div class="form-group">
+                                  <label>Search User</label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="basic-addon1"><i
+                                          class="fe fe-search"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control"
+                                      placeholder="User Id, Email, Name, Account" />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-xl-2 col-lg-6 col-md-5">
+                                <div class="form-group">
+                                  <label>Product</label>
+                                  <input type="text" class="form-control" placeholder="Enter Products" />
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div class="table-responsive table-responsive-new">
+                            <!-- table start -->
+                            <table id="product-table" class="table no-footer table-product-resell datatable-responsive table-no-checkbox w-100">
+                              <thead>
+                                <tr>
+                                  <th class="pl-cust">Case no.</th>
+                                  <th class="">Product Detail</th>
+                                  <th class="">User name</th>
+                                  <th class="">Legal Department Name</th>
+                                  <th class="">Vendor Name</th>
+                                  <th class="">Status</th>
+                                  <th class="sorting-none pr-cust">Action</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                              </tbody>
+                            </table>
+                            <!-- end table -->
+
+                            <div class="pagination-datatatable-bottom">
+                              <div class="pagination-datatatable-bottom-inner">
+
+                                <ul class="pagination-datatatable-list">
+                                  <li> <a href="#" class="btn-pg-round btn-disabled"> <i class="fe fe-arrow-left"></i>
+                                    </a> </li>
+                                  <li> <a href="#" class="btn-pg-round btn-pg-round-transparent"> <i
+                                        class="fe fe-chevrons-left"></i> </a> </li>
+                                  <li>
+                                    <p> <span class="bold-span">1-5</span> of 200</p>
+                                  </li>
+                                  <li> <a href="#" class="btn-pg-round"> <i class="fe fe-arrow-right"></i> </a> </li>
+                                  <li> <a href="#" class="btn-pg-round"> <i class="fe fe-chevrons-right"></i> </a> </li>
+                                </ul>
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div id="closed-dispute" class="tab-pane fade ">
+
+                          <div class="product-search-header">
+                            <div class="row">
+                              <div class="col-xl-3 col-lg-6 col-md-7">
+                                <div class="form-group">
+                                  <label>Search User</label>
+                                  <div class="input-group">
+                                    <div class="input-group-prepend">
+                                      <span class="input-group-text" id="basic-addon1"><i
+                                          class="fe fe-search"></i></span>
+                                    </div>
+                                    <input type="text" class="form-control"
+                                      placeholder="User Id, Email, Name, Account" />
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-xl-2 col-lg-6 col-md-5">
+                                <div class="form-group">
+                                  <label>Product</label>
+                                  <input type="text" class="form-control" placeholder="Enter Products" />
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+
+                          <div class="table-responsive table-responsive-new">
+                            <!-- table start -->
+                            <table id="product-table02" class="table no-footer table-product-resell datatable-responsive table-no-checkbox w-100">
+                              <thead>
+                                <tr>
+                                  <th class="pl-cust">Case no.</th>
+                                  <th class="">Product Detail</th>
+                                  <th class="">User name</th>
+                                  <th class="">Legal Department Name</th>
+                                  <th class="">Vendor Name</th>
+                                  <th class="">Status</th>
+                                  <th class="sorting-none pr-cust">Action</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                                <tr>
+                                  <td class="pl-cust number-date-txt-td">
+                                    <span class="line-block">1234545345</span>
+                                    <span>Date <u>09 Nov ’2018</u></span>
+                                  </td>
+
+                                  <td>
+                                    <div class="pro-details-div">
+                                      <div class="product-tbl-img">
+                                        <a href="">
+                                          <img src="../assets/images/table-img.png" alt="">
+                                        </a>
+                                      </div>
+                                      <div class="product-tbl-description">
+                                        <a href="">
+                                          <h3>Automatic drill machines</h3>
+                                        </a>
+                                        <p>lorem ipsum lorem ipsuym</p>
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Jontray Arnold</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>John Doe</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="product-tbl-description legal-single-tbl-description">
+                                      <a href="">
+                                        <h3>Johny winkler</h3>
+                                      </a>
+                                      <p>User@gmail.com</p>
+                                    </div>
+                                  </td>
+
+                                  <td>
+                                    <div class="service-input active">
+                                      <span>
+                                        Status
+                                      </span>
+                                      <div class="">
+                                        <input type="text" class="form-control" value="Active">
+                                      </div>
+                                    </div>
+                                  </td>
+
+                                  <td class="pr-cust">
+                                    <div class="product-action legal-action-div">
+                                      <a href="#" class="view-details-link link-mange-bidder"> View Details <i
+                                          class="fe fe-chevron-right"></i></a>
+                                    </div>
+                                  </td>
+
+                                </tr>
+
+                              </tbody>
+                            </table>
+                            <!-- end table -->
+
+                            <div class="pagination-datatatable-bottom">
+                              <div class="pagination-datatatable-bottom-inner">
+
+                                <ul class="pagination-datatatable-list">
+                                  <li> <a href="#" class="btn-pg-round btn-disabled"> <i class="fe fe-arrow-left"></i>
+                                    </a> </li>
+                                  <li> <a href="#" class="btn-pg-round btn-pg-round-transparent"> <i
+                                        class="fe fe-chevrons-left"></i> </a> </li>
+                                  <li>
+                                    <p> <span class="bold-span">1-5</span> of 200</p>
+                                  </li>
+                                  <li> <a href="#" class="btn-pg-round"> <i class="fe fe-arrow-right"></i> </a> </li>
+                                  <li> <a href="#" class="btn-pg-round"> <i class="fe fe-chevrons-right"></i> </a> </li>
+                                </ul>
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </div>
+  </main>
+
+
+  <div class="modal modal-auth modal-add-service add-legal-service" tabindex="-1" role="dialog" id="add-legal-department">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+  
+  
+        <!-- <h5 class="modal-title">Modal title</h5> -->
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="fe fe-x"></i>
+        </button>
+  
+        <div class="modal-body">
+  
+          <div class="add-payment-card">
+            <form>
+              <div class="row">
+                <div class="col-lg-12">
+                  <h3>Add new Legal Department </h3>
+                </div>
+              </div>
+  
+              <div class="row">
+
+                <div class="col-lg-12 col-md-12">
+                  <div class="form-group normal-select2">
+                    <label>Choose Law Firm</label>
+                    <select class="select form-control">
+                      <option>Please select law firm</option>
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                    </select>
+                  </div>
+                </div>
+      
+                  
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Legal First Name</label>
+                    <input type="text" class="form-control" placeholder="Enter input" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Legal Last Name</label>
+                    <input type="text" class="form-control" placeholder="Enter input" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Address 1</label>
+                    <input type="text" class="form-control" placeholder="Enter input" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Address 2</label>
+                    <input type="text" class="form-control" placeholder="Enter input" />
+                  </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                  <div class="form-group normal-select2">
+                    <label>Legal State</label>
+                    <select class="select form-control">
+                      <option>Please select region/state</option>
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-12 col-md-12">
+                  <div class="form-group normal-select2">
+                    <label>Legal City</label>
+                    <select class="select form-control">
+                      <option>Please select city</option>
+                      <option>Option 1</option>
+                      <option>Option 2</option>
+                      <option>Option 3</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Add Phone Number</label>
+                    <input type="number" class="form-control" placeholder="Enter phone number" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Add Email</label>
+                    <input type="email" class="form-control" placeholder="Enter email" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" class="form-control" placeholder="Password" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Confirm Password</label>
+                    <input type="password" class="form-control" placeholder="Confirm Password" />
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <label>Head</label>
+                    <div class="custom-file custom-file-custom">
+                      <input type="file" class="custom-file-input" id="customFile">
+                      <label class="custom-file-label" for="customFile">No file chosen</label>
+                    </div>
+                  </div>
+                </div>
+                 
+              </div>
+  
+  
+            </form>
+          </div>
+  
+        </div>
+        <div class="modal-footer modal-request-quote bg-white border-0">
+          <div class="btns-request-quotation">
+            <a href="#" class="btn btn-not-now" data-dismiss="modal" aria-label="Close">Not now</a>
+            <a href="#" class="btn btn-request-quote">Add Legal Department</a>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="" style="display: none;" id="row-filed">
+    <div class="row">
+      <div class="col-xl-3 col-lg-4">
+        <div class="form-group">
+          <label>Feature name 1</label>
+          <input type="text" class="form-control" placeholder="feature name" />
+        </div>
+      </div>
+      <div class="col-xl-7 col-lg-5">
+        <div class="form-group">
+          <label>Description</label>
+          <input type="text" class="form-control" placeholder="Enter description" />
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3">
+        <div class="remove-form-button">
+          <a href="#" class="btn-remove remove-row">
+            Remove
+            <i class="fe fe-x"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- script here -->
+
+
+  <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="../assets/js/jquery.fancybox.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/owl.carousel.min.js"></script>
+  <script src="../assets/js/owl.carousel.js"></script>
+  <script src="../assets/js/wow.js"></script>
+  <script src="../assets/js/dataTables.bootstrap4.min.js"></script>
+  <script src="../assets/js/jquery.dataTables.min.js"></script>
+  <script src="../assets/js/get-data-table.js"></script>
+  <script src="../assets/js/custom.js"></script>
+  <script src="../reseller-dashboard/assets/js/reseller.js"></script>
+  <script src="../assets/js/jquery.mask.js"></script>
+  <script src="../assets/js/select2.min.js"></script>
+  <script type="text/javascript" src="../assets/js/jquery-pincode-autotab.min.js"></script>
+  <script type="text/javascript" src="../assets/js/bootstrap-datepicker.min.js"></script>
+
+  <!-- <script src="../reseller-dashboard/assets/js/highcharts.js"></script>
+<script src="../reseller-dashboard/assets/js/variable-pie.js"></script>
+<script src="../reseller-dashboard/assets/js/hieigh-chart.js"></script> -->
+
+  <!-- <script src='assets/js/Chart.min.js'></script>   -->
+
+  <!-- chart js -->
+
+
+  <script>
+
+    var template = $('#row-filed').html();
+
+    $('#add-feature').click(function () {
+      $('.add-fields').append(template);
+    });
+
+    $(document).on("click", ".remove-row", function () {
+      $(this).parent().parent().parent().hide();
+    });
+
+
+    $('.select').select2(
+      {
+        minimumResultsForSearch: -1,
+        width: 100,
+      }
+    );
+
+    $("#product-table02").DataTable({
+      bPaginate: false,
+      ordering: true,
+      info: false,
+      bFilter: false,
+      bLengthChange: false,
+      searching: false,
+      columnDefs: [
+        { className: "first-col", targets: [0] },
+        { className: "second-col", targets: [1] },
+      ],
+    });
+
+    $("#product-table-new").DataTable({
+      bPaginate: false,
+      ordering: true,
+      info: false,
+      bFilter: false,
+      bLengthChange: false,
+      searching: false,
+      columnDefs: [
+        { className: "first-col", targets: [0] },
+        { className: "second-col", targets: [1] },
+      ],
+    });
+
+    // $("#add-legal-department").modal("show");
+
+  </script>
+</body>
+
+</html>

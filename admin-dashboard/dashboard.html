@@ -1,174 +1,177 @@
-
 <!doctype html>
 <html lang="en" class="h-100">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="description" content="Jenga Nasisi">
-<meta name="author" content="Jenga Nasisi">
-<meta name="generator" content="">
-<title>Admin Dashboard | JengaNasisi</title>
-<link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
-  
-<!-- Bootstrap core CSS -->
 
-<link href="../assets/css/bootstrap.min.css" rel="stylesheet" >
-<link href="../assets/css/owl.carousel.min.css" rel="stylesheet" >
-<link href="../assets/css/owl.theme.default.min.css" rel="stylesheet" >
-<link href="../assets/css/custom.css" rel="stylesheet" >
-<link href="../reseller-dashboard/assets/css/reseller.css" rel="stylesheet" >
-<link href="assets/css/admin-dashboard.css" rel="stylesheet" >
-<link href="../assets/css/animate.css" rel="stylesheet" >
-<link href="../assets/css/font-awesome.min.css" rel="stylesheet" >
-<link href="../assets/css/feather.min.css" rel="stylesheet" >
-<link href="../assets/css/select2.min.css" rel="stylesheet" >
-<link href="../assets/css/dataTables.bootstrap4.min.css" rel="stylesheet" >
-<link href="../assets/css/jquery.dataTables.min.css" rel="stylesheet" >
-<link href="../assets/css/flag.css" rel="stylesheet" >
-<link href="../assets/css/range-slider.css" rel="stylesheet" >
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link href="../assets/css/bootstrap-datepicker.min.css" rel="stylesheet" >
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Jenga Nasisi">
+  <meta name="author" content="Jenga Nasisi">
+  <meta name="generator" content="">
+  <title>Admin Dashboard | JengaNasisi</title>
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+
+  <!-- Bootstrap core CSS -->
+
+  <link href="../assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../assets/css/owl.carousel.min.css" rel="stylesheet">
+  <link href="../assets/css/owl.theme.default.min.css" rel="stylesheet">
+  <link href="../assets/css/custom.css" rel="stylesheet">
+  <link href="../reseller-dashboard/assets/css/reseller.css" rel="stylesheet">
+  <link href="assets/css/admin-dashboard.css" rel="stylesheet">
+  <link href="../assets/css/animate.css" rel="stylesheet">
+  <link href="../assets/css/font-awesome.min.css" rel="stylesheet">
+  <link href="../assets/css/feather.min.css" rel="stylesheet">
+  <link href="../assets/css/select2.min.css" rel="stylesheet">
+  <link href="../assets/css/dataTables.bootstrap4.min.css" rel="stylesheet">
+  <link href="../assets/css/jquery.dataTables.min.css" rel="stylesheet">
+  <link href="../assets/css/flag.css" rel="stylesheet">
+  <link href="../assets/css/range-slider.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="../assets/css/bootstrap-datepicker.min.css" rel="stylesheet">
 
 </head>
+
 <body class="d-flex flex-column h-100">
 
   <!-- top header-->
- 
-  
+
+
   <header class="header header-reseller hader-dashboard">
-  <!-- Fixed navbar -->
+    <!-- Fixed navbar -->
     <nav class="navbar navbar-expand-md navbar-dark ">
       <div class="container-fluid">
         <div class="row col-header">
-         
+
           <div class="col-lg-12 col-12">
             <div class="nav-dashboard">
               <div class="resellear-welcome-content">
                 <h3>Hello <span>Simon jhonson</span></h3>
               </div>
-                <button class="navbar-toggler"  id="menu-open" type="button" >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse1 navbar-collapse sidenav-new-menu" id="mySidenav2">
-                    <a href="javascript:void(0)" class="closebtn" id="menu-closed">&times;</a>
-                    <div class="mobile-menu">
-                            <!-- cloned -->
-                            <div class="account-links">
-                              <ul>
-                               
-                                  <li class="dropdown dropdown-notification">
-                                    <a href="#" id="dropdownMenuLink"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons">
-                                      notifications_none
-                                      </i><span class="text-notifiaction">Notification</span></a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                      <div class="dropdown-menuinner">
-                                        <h3>Today</h3>
-                                        <ul>
-                                          <li><a href="#" class="notification-row">
-                                            <div class="user-profile">
-                                              <span class="circle">
-                                                <i class="fe fe-user"></i>
-                                              </span>
-                                            </div>
-                                            <div class="user-content">
-                                              <h3>Profile update</h3>
-                                              <p>Please update your profile and create 
-                                                student profile with full bio thanks.</p>
-                                                <div class="noti-time">
-                                                  <span>May 17, 2019</span>
-                                                  <span>10:00PM</span>
-                                                </div>
-                                            </div>
-                                          </a></li>
-                                          <li><a href="#" class="notification-row">
-                                            <div class="user-profile">
-                                              <span class="circle">
-                                                <i class="fe fe-activity"></i>
-                                              </span>
-                                            </div>
-                                            <div class="user-content">
-                                              <h3>Check new request</h3>
-                                              <p>Please update your profile and create 
-                                                student profile with full bio thanks.</p>
-                                                <div class="noti-time">
-                                                  <span>May 17, 2019</span>
-                                                  <span>10:00PM</span>
-                                                </div>
-                                            </div>
-                                          </a></li>
-                                          <li><a href="#" class="notification-row">
-                                            <div class="user-profile">
-                                              <span class="circle circle-gray">
-                                                <i class="fe fe-award"></i>
-                                              </span>
-                                            </div>
-                                            <div class="user-content">
-                                              <h3>12 Buyer is intrested</h3>
-                                              <p>Please update your profile and create 
-                                                student profile with full bio thanks.</p>
-                                                <div class="noti-time">
-                                                  <span>May 17, 2019</span>
-                                                  <span>10:00PM</span>
-                                                </div>
-                                            </div>
-                                          </a></li>
-                                        </ul>
-                                        <h3>Yesterday</h3>
-                                        <ul>
-                                          <li><a href="#" class="notification-row">
-                                            <div class="user-profile">
-                                              <span class="circle circle-gray">
-                                                <i class="fe fe-award"></i>
-                                              </span>
-                                            </div>
-                                            <div class="user-content">
-                                              <h3>12 Buyer is intrested</h3>
-                                              <p>Please update your profile and create 
-                                                student profile with full bio thanks.</p>
-                                                <div class="noti-time">
-                                                  <span>May 17, 2019</span>
-                                                  <span>10:00PM</span>
-                                                </div>
-                                            </div>
-                                          </a></li>
-                                        </ul>
-                                      </div>
-                                        <a href="#" class="all-notification">
-                                          Archived All
-                                        </a>
+              <button class="navbar-toggler" id="menu-open" type="button">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse1 navbar-collapse sidenav-new-menu" id="mySidenav2">
+                <a href="javascript:void(0)" class="closebtn" id="menu-closed">&times;</a>
+                <div class="mobile-menu">
+                  <!-- cloned -->
+                  <div class="account-links">
+                    <ul>
+
+                      <li class="dropdown dropdown-notification">
+                        <a href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false"><i class="material-icons">
+                            notifications_none
+                          </i><span class="text-notifiaction">Notification</span></a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <div class="dropdown-menuinner">
+                            <h3>Today</h3>
+                            <ul>
+                              <li><a href="#" class="notification-row">
+                                  <div class="user-profile">
+                                    <span class="circle">
+                                      <i class="fe fe-user"></i>
+                                    </span>
+                                  </div>
+                                  <div class="user-content">
+                                    <h3>Profile update</h3>
+                                    <p>Please update your profile and create
+                                      student profile with full bio thanks.</p>
+                                    <div class="noti-time">
+                                      <span>May 17, 2019</span>
+                                      <span>10:00PM</span>
                                     </div>
-                                 
-                                 
-                                </li>
-                                <li class="dropdown dropdown-reseller userdropdown-arrow">
-                                  <a href="#" id="dropdownMenuLink"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    <span><img src="assets/images/Userpic.png" alt=""></span>Jhon Doe</a>
-                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                      <ul>
-                                        <li><a href="#">Profile setting</a></li>
-                                        <li><a href="#">Change password</a></li>
-                                        <li><a href="#">Upgrade</a></li>
-                                        <li><a href="#">Bussines tips</a></li>
-                                        <li class="logout-link"><a href="#" >logout</a></li>
-                                      </ul>
-                                      
+                                  </div>
+                                </a></li>
+                              <li><a href="#" class="notification-row">
+                                  <div class="user-profile">
+                                    <span class="circle">
+                                      <i class="fe fe-activity"></i>
+                                    </span>
+                                  </div>
+                                  <div class="user-content">
+                                    <h3>Check new request</h3>
+                                    <p>Please update your profile and create
+                                      student profile with full bio thanks.</p>
+                                    <div class="noti-time">
+                                      <span>May 17, 2019</span>
+                                      <span>10:00PM</span>
                                     </div>
-                                </li>
-                              </ul>
-                            </div>
+                                  </div>
+                                </a></li>
+                              <li><a href="#" class="notification-row">
+                                  <div class="user-profile">
+                                    <span class="circle circle-gray">
+                                      <i class="fe fe-award"></i>
+                                    </span>
+                                  </div>
+                                  <div class="user-content">
+                                    <h3>12 Buyer is intrested</h3>
+                                    <p>Please update your profile and create
+                                      student profile with full bio thanks.</p>
+                                    <div class="noti-time">
+                                      <span>May 17, 2019</span>
+                                      <span>10:00PM</span>
+                                    </div>
+                                  </div>
+                                </a></li>
+                            </ul>
+                            <h3>Yesterday</h3>
+                            <ul>
+                              <li><a href="#" class="notification-row">
+                                  <div class="user-profile">
+                                    <span class="circle circle-gray">
+                                      <i class="fe fe-award"></i>
+                                    </span>
+                                  </div>
+                                  <div class="user-content">
+                                    <h3>12 Buyer is intrested</h3>
+                                    <p>Please update your profile and create
+                                      student profile with full bio thanks.</p>
+                                    <div class="noti-time">
+                                      <span>May 17, 2019</span>
+                                      <span>10:00PM</span>
+                                    </div>
+                                  </div>
+                                </a></li>
+                            </ul>
+                          </div>
+                          <a href="#" class="all-notification">
+                            Archived All
+                          </a>
+                        </div>
 
 
-                            <div class="menu-cloned-three" id="menu-cloned-three">
+                      </li>
+                      <li class="dropdown dropdown-reseller userdropdown-arrow">
+                        <a href="#" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+                          aria-expanded="false">
+                          <span><img src="assets/images/Userpic.png" alt=""></span>Jhon Doe</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <ul>
+                            <li><a href="#">Profile setting</a></li>
+                            <li><a href="#">Change password</a></li>
+                            <li><a href="#">Upgrade</a></li>
+                            <li><a href="#">Bussines tips</a></li>
+                            <li class="logout-link"><a href="#">logout</a></li>
+                          </ul>
 
-                            </div>
-                         
-                        </div>              
+                        </div>
+                      </li>
+                    </ul>
                   </div>
-                  <div id="cd-shadow-layer" class="menu-closed" style="display: none;"></div>
+
+
+                  <div class="menu-cloned-three" id="menu-cloned-three">
+
+                  </div>
+
+                </div>
+              </div>
+              <div id="cd-shadow-layer" class="menu-closed" style="display: none;"></div>
             </div>
-           
-            </div>
+
           </div>
+        </div>
       </div>
     </nav>
   </header>
@@ -178,8 +181,8 @@
   <div class="right-sidenav right-side-admin">
     <div class="rightside-nav-inner">
       <div class="nav-logo-section">
-        <a href="dashboard.html" class="dash-logo" >
-          <img src="assets/images/logo.png" class="logo-one" alt=""> 
+        <a href="dashboard.html" class="dash-logo">
+          <img src="assets/images/logo.png" class="logo-one" alt="">
           <img src="assets/images/logo.png" class="logo-two" alt="">
           <h3>Admin Account</h3>
         </a>
@@ -187,38 +190,38 @@
           <a href="#" id="collapse-nav"><i class="fe fe-bar-chart"></i></a>
         </div>
       </div>
-    
+
       <div class="rightside-menu" id="dashboard-menu-clone">
         <div class="rightside-inner">
           <div class="side-nav-item accordion " id="menu-collapse">
             <ul>
               <li class="nav-item active">
                 <a class="nav-link nav-toggle active" href="dashboard.html">
-                  <span class="icon-nav"   >
-                    <i class="material-icons " >
+                  <span class="icon-nav">
+                    <i class="material-icons ">
                       dashboard
-                      </i>
+                    </i>
                   </span>
                   <span class="text-collaps-menu">Dashboard</span>
                 </a>
-              </li> 
+              </li>
               <li class="nav-item">
                 <a class="nav-link nav-toggle " href="user-management.html">
-                  <span class="icon-nav"   >
-                    <i class="material-icons " >
+                  <span class="icon-nav">
+                    <i class="material-icons ">
                       supervisor_account
-                      </i>
+                    </i>
                   </span>
                   <span class="text-collaps-menu">User management</span>
                 </a>
-              </li>            
-            
+              </li>
+
               <li class="nav-item">
                 <a class="nav-link nav-toggle" href="seller-management.html">
                   <span class="icon-nav">
                     <i class="material-icons">
                       storefront
-                      </i>
+                    </i>
                   </span>
                   <span class="text-collaps-menu">Seller management</span>
                 </a>
@@ -226,36 +229,45 @@
 
               <li class="nav-item ">
                 <a class="nav-link nav-toggle " href="service-management.html">
-                
+
                   <span class="icon-nav ">
                     <i class="icon-img icon-service-mgmt"></i>
                   </span>
 
                   <span class="text-collaps-menu">Service management</span>
                 </a>
-              </li>  
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nav-toggle" href="logistic-management.html">
+                  <span class="icon-nav ">
+                    <i class="material-icons"> local_shipping </i>
+                  </span>
+                  <span class="text-collaps-menu">Logistic Management</span>
+                </a>
+              </li>
 
               <li class="nav-item">
                 <a class="nav-link nav-toggle" href="notification-setup.html">
                   <span class="icon-nav">
                     <i class="material-icons">
                       notifications_active
-                      </i>
+                    </i>
                   </span>
                   <span class="text-collaps-menu">Notification setup</span>
                 </a>
-              </li>  
+              </li>
 
               <li class="nav-item">
                 <a class="nav-link nav-toggle" href="payment-history.html">
                   <span class="icon-nav">
                     <i class="material-icons">
                       attach_money
-                      </i>
+                    </i>
                   </span>
                   <span class="text-collaps-menu">Payment history <span class="tag">02</span>
                 </a>
-              </li>  
+              </li>
 
               <li class="nav-item">
                 <a class="nav-link nav-toggle" href="plan-menagement.html">
@@ -264,7 +276,7 @@
                   </span>
                   <span class="text-collaps-menu">Plan management</span>
                 </a>
-              </li>  
+              </li>
 
               <li class="nav-item">
                 <a class="nav-link nav-toggle" href="buisness-tips.html">
@@ -273,32 +285,32 @@
                   </span>
                   <span class="text-collaps-menu">Business tips</span>
                 </a>
-              </li>  
+              </li>
 
-           
+
 
               <li class="nav-item">
                 <a class="nav-link nav-toggle" href="user-setting.html">
                   <span class="icon-nav">
                     <i class="material-icons">
                       settings_applications
-                      </i>
+                    </i>
                   </span>
                   <span class="text-collaps-menu">setting</span>
                 </a>
-              </li>  
+              </li>
 
-             
+
               <li class="nav-item">
                 <a class="nav-link nav-toggle" href="message.html">
                   <span class="icon-nav">
                     <i class="material-icons">
                       question_answer
-                      </i>
+                    </i>
                   </span>
                   <span class="text-collaps-menu">Message center</span>
                 </a>
-              </li>  
+              </li>
 
 
               <!-- <li class="nav-item">
@@ -320,7 +332,7 @@
                 </ul>
                 </div>
               </li> -->
-        
+
             </ul>
           </div>
 
@@ -329,7 +341,7 @@
               <li>
                 <a href="#">Visit website</a>
               </li>
-              
+
             </ul>
           </div>
         </div>
@@ -338,439 +350,444 @@
   </div>
 
 
-<!-- Begin page content -->
-<main role="main" class="flex-shrink-0 middle-section reseller-dashboard">
-  <div class="middle-inner">
+  <!-- Begin page content -->
+  <main role="main" class="flex-shrink-0 middle-section reseller-dashboard">
+    <div class="middle-inner">
 
 
-   <section class=" admin-dash-section">
-     <div class="dashboard-summary-inner admin-dash-inner">
-       <div class="container-fluid">
-         <div class="row">
-
-        
-        <div class="col-xl-9 col-lg-12">
-
-          <!-- summary box -->
-          <div class="admin-dashbox">
-            <div class="row row-0">
-
-
-              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
-                <a href="#" class="dash-box">
-                    <div class="box-img">
-                      <img src="assets/images/product.png" alt="">
-                    </div>
-                    <div class="box-content">
-                      <p>Products</p>
-                      <h3>2605</h3>
-                    </div>
-
-                </a>
-              </div>
-
-
-              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
-                <a href="#" class="dash-box">
-                    <div class="box-img">
-                      <img src="assets/images/seller.png" alt="">
-                    </div>
-                    <div class="box-content">
-                      <p>Sellers</p>
-                      <h3>2605</h3>
-                    </div>
-
-                </a>
-              </div>
-
-
-              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
-                <a href="#" class="dash-box">
-                    <div class="box-img">
-                      <img src="assets/images/services.png" alt="">
-                    </div>
-                    <div class="box-content">
-                      <p>Services</p>
-                      <h3>2605</h3>
-                    </div>
-                </a>
-              </div>
-
-              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
-                <a href="#" class="dash-box b-0">
-                    <div class="box-img">
-                      <img src="assets/images/all-order.png" alt="">
-                    </div>
-                    <div class="box-content">
-                      <p>All orders</p>
-                      <h3>2605</h3>
-                    </div>
-
-                </a>
-              </div>
-
-             
-
-
-            </div>
-          </div>
-            
-          <div class="admin-box-summary">
-            <div class="row row-0">
-
-
-              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
-                <div class="admin-box">
-                  <a href="#" class="link-text">Click rate</a>
-
-                  <div class="icon-text">
-                    <div class="icon-img">
-                      <img src="assets/images/icon/icon-click-rate.png" alt="">
-                    </div>
-                    <h2>40%</h2>
-                  </div>
-
-                  <h3><a href="#">See customers </a>that haven’t clicked the products.</h3>
-
-                  <p>"Neque porro quisquam est qui dolorem ipsum"</p>
-
-                </div>
-              </div>
-
-
-              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
-                <div  class="admin-box">
-                  <a href="#" class="link-text">Most Reviwed seller</a>
-
-                  <div class="icon-text">
-                    <div class="icon-img">
-                      <img src="assets/images/icon/icon-reviews.png" alt="">
-                    </div>
-                    <h2>40</h2>
-                  </div>
-
-                  <h3><a href="#">See all customers</a> that leaved the reviews</h3>
-
-                  <p>"Neque porro quisquam est qui dolorem ipsum"</p>
-
-                </div>
-              </div>
-
-
-              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
-                <div class="admin-box">
-                  <a href="#" class="link-text">Most Responding seller</a>
-
-                  <div class="icon-text">
-                    <div class="icon-img">
-                      <img src="assets/images/icon/icon-response-rate.png" alt="">
-                    </div>
-                    <h2>150</h2>
-                  </div>
-
-                  <h3><a href="#">See reviews</a> which haven’t been responded to</h3>
-
-                  <p>"Neque porro quisquam est qui dolorem ipsum"</p>
-
-                </div>
-              </div>
-
-              <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
-                <div class="admin-box b-0">
-                  <a href="#" class="link-text">Most favourite seller</a>
-
-                  <div class="icon-text">
-                    <div class="icon-img">
-                      <img src="assets/images/icon/icon-heart.png" alt="">
-                    </div>
-                    <h2>200</h2>
-                  </div>
-
-                  <h3><a href="#">See reviews</a> which haven’t been responded to</h3>
-
-                  <p>"Neque porro quisquam est qui dolorem ipsum"</p>
-
-                </div>
-              </div>
-
-             
-
-
-            </div>
-          </div>
-
-          <div class="weekly-sell-summary">
+      <section class=" admin-dash-section">
+        <div class="dashboard-summary-inner admin-dash-inner">
+          <div class="container-fluid">
             <div class="row">
-              <div class="col-lg-12">
-                <div class="chat-header">
-                  <div class="title">
-                    <h3>Weekly Sale Summary</h3>
+
+
+              <div class="col-xl-9 col-lg-12">
+
+                <!-- summary box -->
+                <div class="admin-dashbox">
+                  <div class="row row-0">
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
+                      <a href="#" class="dash-box">
+                        <div class="box-img">
+                          <img src="assets/images/product.png" alt="">
+                        </div>
+                        <div class="box-content">
+                          <p>Products</p>
+                          <h3>2605</h3>
+                        </div>
+
+                      </a>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
+                      <a href="#" class="dash-box">
+                        <div class="box-img">
+                          <img src="assets/images/seller.png" alt="">
+                        </div>
+                        <div class="box-content">
+                          <p>Sellers</p>
+                          <h3>2605</h3>
+                        </div>
+
+                      </a>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
+                      <a href="#" class="dash-box">
+                        <div class="box-img">
+                          <img src="assets/images/services.png" alt="">
+                        </div>
+                        <div class="box-content">
+                          <p>Services</p>
+                          <h3>2605</h3>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
+                      <a href="#" class="dash-box b-0">
+                        <div class="box-img">
+                          <img src="assets/images/all-order.png" alt="">
+                        </div>
+                        <div class="box-content">
+                          <p>All orders</p>
+                          <h3>2605</h3>
+                        </div>
+
+                      </a>
+                    </div>
+
+
+
+
                   </div>
-                  <div class="dropdown-content">
-                    <select class="select">
-                      <option value="">Weekly</option>
-                      <option value="">Monthly</option>
-                      <option value="">Yearly</option>
-                    </select>
+                </div>
+
+                <div class="admin-box-summary">
+                  <div class="row row-0">
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
+                      <div class="admin-box">
+                        <a href="#" class="link-text">Click rate</a>
+
+                        <div class="icon-text">
+                          <div class="icon-img">
+                            <img src="assets/images/icon/icon-click-rate.png" alt="">
+                          </div>
+                          <h2>40%</h2>
+                        </div>
+
+                        <h3><a href="#">See customers </a>that haven’t clicked the products.</h3>
+
+                        <p>"Neque porro quisquam est qui dolorem ipsum"</p>
+
+                      </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
+                      <div class="admin-box">
+                        <a href="#" class="link-text">Most Reviwed seller</a>
+
+                        <div class="icon-text">
+                          <div class="icon-img">
+                            <img src="assets/images/icon/icon-reviews.png" alt="">
+                          </div>
+                          <h2>40</h2>
+                        </div>
+
+                        <h3><a href="#">See all customers</a> that leaved the reviews</h3>
+
+                        <p>"Neque porro quisquam est qui dolorem ipsum"</p>
+
+                      </div>
+                    </div>
+
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
+                      <div class="admin-box">
+                        <a href="#" class="link-text">Most Responding seller</a>
+
+                        <div class="icon-text">
+                          <div class="icon-img">
+                            <img src="assets/images/icon/icon-response-rate.png" alt="">
+                          </div>
+                          <h2>150</h2>
+                        </div>
+
+                        <h3><a href="#">See reviews</a> which haven’t been responded to</h3>
+
+                        <p>"Neque porro quisquam est qui dolorem ipsum"</p>
+
+                      </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-6 pad-0">
+                      <div class="admin-box b-0">
+                        <a href="#" class="link-text">Most favourite seller</a>
+
+                        <div class="icon-text">
+                          <div class="icon-img">
+                            <img src="assets/images/icon/icon-heart.png" alt="">
+                          </div>
+                          <h2>200</h2>
+                        </div>
+
+                        <h3><a href="#">See reviews</a> which haven’t been responded to</h3>
+
+                        <p>"Neque porro quisquam est qui dolorem ipsum"</p>
+
+                      </div>
+                    </div>
+
+
+
+
                   </div>
                 </div>
-              </div>
-              <div class="col-lg-12">
-                <canvas id="buyers" class="chart-body" ></canvas>
-              </div>
-            </div>
-          </div>
 
-       
-        </div>
-
-        <div class="col-xl-3 col-lg-12">
-          <div class="page-controller-admin">
-            <div class="page-controller-inner">
-              <!-- premium seller -->
-              <div class="premium-seller">
-                  <h4>Premium Sellers</h4>
-                  <h2>260</h2>
-              </div>
-              
-              <!-- chart -->
-              <div class="product-chart-box">
-                <div class="chart-header">
-                  <h3>User Availability<span>350</span></h3>
-                </div>
-                <div id="container"></div>
-                <div class="chart-footer">
-                  <a href="#" class="btn btn-actiavted"><i class="fa fa-circle" style="color:#222221;"></i>Inactive user</a>
-                  <a href="#" class="btn btn-deactivated"><i class="fa fa-circle" style="color:#FFC20F;"></i>Active user</a>
-                </div>
-              </div>
-
-              <!-- add more product -->
-
-              <div class="product-chart2">
-                <h3>Products</h3>
-                <div class="product-header-chart">
+                <div class="weekly-sell-summary">
                   <div class="row">
-                    <div class="col-7">
-                      <div class="product-box br-1">
-                        <h3>260</h3>
-                        <p>Order in progress</p>
+                    <div class="col-lg-12">
+                      <div class="chat-header">
+                        <div class="title">
+                          <h3>Weekly Sale Summary</h3>
+                        </div>
+                        <div class="dropdown-content">
+                          <select class="select">
+                            <option value="">Weekly</option>
+                            <option value="">Monthly</option>
+                            <option value="">Yearly</option>
+                          </select>
+                        </div>
                       </div>
                     </div>
-                    <div class="col-5">
-                      <div class="product-box">
-                        <h3>70</h3>
-                        <p>Delivered</p>
-                      </div>
+                    <div class="col-lg-12">
+                      <canvas id="buyers" class="chart-body"></canvas>
                     </div>
                   </div>
                 </div>
-                <div class="chart-container">
-                  <div id="product-chart" class="chart-product"></div>
-                  <div class="chart-labeled">
-                    <p><i class="fa fa-circle" style="color:#77B342;"></i>Delivered</p>
-                    <p><i class="fa fa-circle" style="color:#FFC20F;"></i>In progress</p>
-                    <p><i class="fa fa-circle" style="color:#222221;"></i>In queue</p>
-                    <p><i class="fa fa-circle" style="color:#CBCBCB;"></i>Cancelled</p>
-                    <p><i class="fa fa-circle" style="color:#EC4C47;"></i>Failed</p>
-                  </div>
-                </div>
-                
 
-                
+
               </div>
-              
-              
+
+              <div class="col-xl-3 col-lg-12">
+                <div class="page-controller-admin">
+                  <div class="page-controller-inner">
+                    <!-- premium seller -->
+                    <div class="premium-seller">
+                      <h4>Premium Sellers</h4>
+                      <h2>260</h2>
+                    </div>
+
+                    <!-- chart -->
+                    <div class="product-chart-box">
+                      <div class="chart-header">
+                        <h3>User Availability<span>350</span></h3>
+                      </div>
+                      <div id="container"></div>
+                      <div class="chart-footer">
+                        <a href="#" class="btn btn-actiavted"><i class="fa fa-circle"
+                            style="color:#222221;"></i>Inactive user</a>
+                        <a href="#" class="btn btn-deactivated"><i class="fa fa-circle"
+                            style="color:#FFC20F;"></i>Active user</a>
+                      </div>
+                    </div>
+
+                    <!-- add more product -->
+
+                    <div class="product-chart2">
+                      <h3>Products</h3>
+                      <div class="product-header-chart">
+                        <div class="row">
+                          <div class="col-7">
+                            <div class="product-box br-1">
+                              <h3>260</h3>
+                              <p>Order in progress</p>
+                            </div>
+                          </div>
+                          <div class="col-5">
+                            <div class="product-box">
+                              <h3>70</h3>
+                              <p>Delivered</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="chart-container">
+                        <div id="product-chart" class="chart-product"></div>
+                        <div class="chart-labeled">
+                          <p><i class="fa fa-circle" style="color:#77B342;"></i>Delivered</p>
+                          <p><i class="fa fa-circle" style="color:#FFC20F;"></i>In progress</p>
+                          <p><i class="fa fa-circle" style="color:#222221;"></i>In queue</p>
+                          <p><i class="fa fa-circle" style="color:#CBCBCB;"></i>Cancelled</p>
+                          <p><i class="fa fa-circle" style="color:#EC4C47;"></i>Failed</p>
+                        </div>
+                      </div>
+
+
+
+                    </div>
+
+
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
+      </section>
 
-        </div>
-       </div>
-     </div>
-   </section>
+    </div>
+  </main>
 
-  </div>
- </main>
+  <div class="modal modal-auth modal-sharelink" tabindex="-1" role="dialog" id="sharelink-modal">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
 
- <div class="modal modal-auth modal-sharelink" tabindex="-1" role="dialog" id="sharelink-modal" >
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
 
-    
         <!-- <h5 class="modal-title">Modal title</h5> -->
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <i class="fe fe-x"></i>
         </button>
-     
-      <!-- modal body -->
-      <div class="modal-body"> 
-        <div class="company-share-profile">      
-          <div class="row justify-content-center">
-         <div class="col-xl-4 col-lg-5 col-md-7 col-sm-6">
-    
-            <div class="suppliar-box">
-              <div class="faverouite">
-                <a href="#" class="faverouite-btn">
-                  <i class="fa fa-heart-o"></i>
-                </a>
-              </div>
-              <a href="#">
-                <div class="suppliar-img">
-                  <img src="../assets/images/suppliar-4.png" class="img-fluid" alt="">
+
+        <!-- modal body -->
+        <div class="modal-body">
+          <div class="company-share-profile">
+            <div class="row justify-content-center">
+              <div class="col-xl-4 col-lg-5 col-md-7 col-sm-6">
+
+                <div class="suppliar-box">
+                  <div class="faverouite">
+                    <a href="#" class="faverouite-btn">
+                      <i class="fa fa-heart-o"></i>
+                    </a>
+                  </div>
+                  <a href="#">
+                    <div class="suppliar-img">
+                      <img src="../assets/images/suppliar-4.png" class="img-fluid" alt="">
+                    </div>
+                  </a>
+
+                  <div class="suppliar-footer">
+                    <a href="#">
+                      <h3>Symon hardware</h3>
+                    </a>
+                    <h4>Australia UK</h4>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                    </div>
+                  </div>
                 </div>
-              </a>
-              
-              <div class="suppliar-footer">
-                <a href="#"><h3>Symon hardware</h3></a>
-                <h4>Australia UK</h4>
-                <div class="rating">
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
               </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="shareLink">
+                  <h3>Share your store link here and social also</h3>
+                  <a href="#">https://transfernow.net/07k1s1s23a2o</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="socialLinks">
+                  <ul>
+                    <li>
+                      <a href="#" class="google">
+                        <i class="fa fa-google-plus"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="facebook">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="dribble">
+                        <i class="fa fa-dribbble"></i>
+                      </a>
+                    </li>
+
+                    <li>
+                      <a href="#" class="be">
+                        <i class="fa fa-behance"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="linkedin">
+                        <i class="fa fa-linkedin"></i>
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
               </div>
             </div>
           </div>
-         </div>
-
-         <div class="row">
-           <div class="col-lg-12">
-             <div class="shareLink">
-               <h3>Share your store link here and social also</h3>
-               <a href="#" >https://transfernow.net/07k1s1s23a2o</a>
-             </div> 
-           </div>
-         </div>
-
-         <div class="row">
-          <div class="col-lg-12">
-            <div class="socialLinks">
-              <ul>
-                <li>
-                  <a href="#" class="google">
-                    <i class="fa fa-google-plus"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="facebook">
-                    <i class="fa fa-facebook"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="dribble">
-                    <i class="fa fa-dribbble"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="#" class="be">
-                    <i class="fa fa-behance"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="linkedin">
-                    <i class="fa fa-linkedin"></i>
-                  </a>
-                </li>
-              </ul>
-
-            </div> 
-          </div>
         </div>
-       </div>
-      </div>
 
-      <!-- modal footer -->
-      <div class="modal-footer modal-footer-shar-link ">
-      
+        <!-- modal footer -->
+        <div class="modal-footer modal-footer-shar-link ">
+
           <h3>Share your store link</h3>
-       
+
+        </div>
       </div>
     </div>
   </div>
-</div>
 
-<!-- script here -->
-
-
-<script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
-<script src="../assets/js/jquery.fancybox.min.js"></script>
-<script src="../assets/js/bootstrap.bundle.min.js" ></script>
-<script src="../assets/js/owl.carousel.min.js" ></script>
-<script src="../assets/js/owl.carousel.js" ></script>
-<script src="../assets/js/wow.js" ></script>
-<!-- <script src="../assets/js/dataTables.bootstrap4.min.js" ></script> -->
-<script src="../assets/js/jquery.dataTables.min.js" ></script>
-<script src="../assets/js/get-data-table.js" ></script>
-<script src="../assets/js/custom.js" ></script>
-<script src="../reseller-dashboard/assets/js/reseller.js" ></script>
-<script src="../assets/js/jquery.mask.js" ></script>
-<script src="../assets/js/select2.min.js" ></script>
-<script type="text/javascript" src="../assets/js/jquery-pincode-autotab.min.js"></script>
-<script type="text/javascript" src="../assets/js/bootstrap-datepicker.min.js"></script>
-
-<script src="../reseller-dashboard/assets/js/highcharts.js"></script>
-<script src="../reseller-dashboard/assets/js/variable-pie.js"></script>
-<script src="../reseller-dashboard/assets/js/highcharts-admin.js"></script>
-
-<script src='assets/js/Chart.min.js'></script>  
-
-<!-- chart js -->
+  <!-- script here -->
 
 
-<script>
+  <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="../assets/js/jquery.fancybox.min.js"></script>
+  <script src="../assets/js/bootstrap.bundle.min.js"></script>
+  <script src="../assets/js/owl.carousel.min.js"></script>
+  <script src="../assets/js/owl.carousel.js"></script>
+  <script src="../assets/js/wow.js"></script>
+  <!-- <script src="../assets/js/dataTables.bootstrap4.min.js" ></script> -->
+  <script src="../assets/js/jquery.dataTables.min.js"></script>
+  <script src="../assets/js/get-data-table.js"></script>
+  <script src="../assets/js/custom.js"></script>
+  <script src="../reseller-dashboard/assets/js/reseller.js"></script>
+  <script src="../assets/js/jquery.mask.js"></script>
+  <script src="../assets/js/select2.min.js"></script>
+  <script type="text/javascript" src="../assets/js/jquery-pincode-autotab.min.js"></script>
+  <script type="text/javascript" src="../assets/js/bootstrap-datepicker.min.js"></script>
+
+  <script src="../reseller-dashboard/assets/js/highcharts.js"></script>
+  <script src="../reseller-dashboard/assets/js/variable-pie.js"></script>
+  <script src="../reseller-dashboard/assets/js/highcharts-admin.js"></script>
+
+  <script src='assets/js/Chart.min.js'></script>
+
+  <!-- chart js -->
+
+
+  <script>
 
 
 
-$(document).ready(function(){
-   // line chart data
-   var buyerData = {
-                labels : ["01 Mon","02 Tue","03 Wed","04 Thu","05 Fri","06 Sat"," 07 Sun"," 08 Mon"," 09 Tus","10 Wed","11 Thu","12 Fir","13 Sat","14 Sun"],
-                datasets : [
-                {
-                    fillColor : "rgba(255,194,15,0.20)",
-                    strokeColor : "#FFC20F",
-                    pointColor : "#222221",
-                    pointStrokeColor : "#ffffff",
-                    pointStrokeWidth: "5",
-                    pointHighlightFill: "#fff",
-                    pointHighlightStroke: "rgba(220,220,220,1)",
-                    lineTension: 0.1,
-                    data : [10,30,60,50,60,80.50,150,80,60,70,80,60,60,80]
-                }
-                
-                
-            ], 
-         
-            }
-            // get line chart canvas
-            var buyers = document.getElementById('buyers').getContext('2d');
-            // draw line chart
-            new Chart(buyers).Line(buyerData);
-          
-});
-
-         
-        
-
-        $('.resller-nav-tab ul li a').click(function() {
-          $(this).parent().addClass('active');
-        });
+    $(document).ready(function () {
+      // line chart data
+      var buyerData = {
+        labels: ["01 Mon", "02 Tue", "03 Wed", "04 Thu", "05 Fri", "06 Sat", " 07 Sun", " 08 Mon", " 09 Tus", "10 Wed", "11 Thu", "12 Fir", "13 Sat", "14 Sun"],
+        datasets: [
+          {
+            fillColor: "rgba(255,194,15,0.20)",
+            strokeColor: "#FFC20F",
+            pointColor: "#222221",
+            pointStrokeColor: "#ffffff",
+            pointStrokeWidth: "5",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "rgba(220,220,220,1)",
+            lineTension: 0.1,
+            data: [10, 30, 60, 50, 60, 80.50, 150, 80, 60, 70, 80, 60, 60, 80]
+          }
 
 
-          $('.select').select2(
-            {
-              minimumResultsForSearch: -1,
-              width: 100,
-            }
-          );
+        ],
+
+      }
+      // get line chart canvas
+      var buyers = document.getElementById('buyers').getContext('2d');
+      // draw line chart
+      new Chart(buyers).Line(buyerData);
+
+    });
 
 
-</script>
+
+
+    $('.resller-nav-tab ul li a').click(function () {
+      $(this).parent().addClass('active');
+    });
+
+
+    $('.select').select2(
+      {
+        minimumResultsForSearch: -1,
+        width: 100,
+      }
+    );
+
+
+  </script>
 </body>
+
 </html>

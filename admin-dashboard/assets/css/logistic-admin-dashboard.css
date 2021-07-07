@@ -1,0 +1,569 @@
+.bg-img-icon {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.shopping-bag-icon {
+  height: 21px;
+  width: 16px;
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg width='16px' height='21px' viewBox='0 0 16 21' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle%3Eshopping-bag%3C/title%3E%3Cg id='Page-1' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd'%3E%3Cg id='shopping-bag' fill='%23727272' fill-rule='nonzero'%3E%3Cpath d='M15.888465,16.5338218 L14.9931891,5.25147345 C14.9376211,4.52454637 14.3226133,3.95535577 13.5937282,3.95535577 L11.825106,3.95535577 L11.825106,6.57582548 C11.825106,6.90034439 11.5624207,7.16302967 11.2379018,7.16302967 C10.9137744,7.16302967 10.6506976,6.90034439 10.6506976,6.57582548 L10.6506976,3.95535577 L5.24853645,3.95535577 L5.24853645,6.57582548 C5.24853645,6.90034439 4.98545957,7.16302967 4.66133225,7.16302967 C4.33681333,7.16302967 4.07412805,6.90034439 4.07412805,6.57582548 L4.07412805,3.95535577 L2.30550582,3.95535577 C1.57662075,3.95535577 0.961612954,4.52454637 0.906044914,5.24990705 L0.0103773999,16.5353882 C-0.0588966396,17.4392793 0.254657478,18.3388628 0.870409314,19.0035647 C1.48620031,19.6682274 2.35915502,20.0499199 3.26539574,20.0499199 L12.6338774,20.0499199 C13.5401182,20.0499199 14.4130729,19.6682274 15.0288639,19.0035255 C15.6446157,18.3388237 15.9581698,17.4392402 15.888465,16.5338218 Z M10.5951295,10.7883058 L7.55815407,13.8252813 C7.44345443,13.9399809 7.29311919,13.9975069 7.14282311,13.9975069 C6.99248787,13.9975069 6.84219179,13.9399809 6.72749216,13.8252813 L5.30414365,12.4019328 C5.07474437,12.1725335 5.07474437,11.8010226 5.30414365,11.5716233 C5.53354292,11.342224 5.90544544,11.342224 6.13445312,11.5716233 L7.14286227,12.5796408 L9.76485922,9.95764389 C9.99386689,9.72863622 10.3657694,9.72863622 10.5951687,9.95764389 C10.8245288,10.1870432 10.8245288,10.5589065 10.5951295,10.7883058 Z' id='Shape'%3E%3C/path%3E%3Cpath d='M7.94963659,0 C5.81263624,0 4.07416721,1.73886063 4.07416721,3.87586097 L4.07416721,3.95531661 L5.24857561,3.95531661 L5.24857561,3.87586097 C5.24857561,2.38633206 6.46014684,1.17436923 7.94967575,1.17436923 C9.43920466,1.17436923 10.6507759,2.38633206 10.6507759,3.87586097 L10.6507759,3.95531661 L11.8251451,3.95531661 L11.8251451,3.87586097 C11.8251451,1.73886063 10.0866369,0 7.94963659,0 Z' id='Path'%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.logistic-management-section .logistic-management-header .action-side .list-action-link-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box {
+  margin: 0 0 0 20px;
+}
+
+.logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box a i {
+  color: #727272;
+}
+
+.logistic-management-section .lo-management-header .breadcrumb-section.breadcrumb-lo {
+  border-bottom: 0 solid #e8e8e8;
+}
+
+.logistic-management-section .lo-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item {
+  padding: 0 10px 0 35px;
+  position: relative;
+}
+
+.logistic-management-section .lo-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item::before {
+  position: absolute;
+  top: 9px;
+  left: 0;
+}
+
+.logistic-management-section .lo-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item:first-child {
+  padding-left: 0;
+}
+
+.logistic-management-section .lo-management-header .btn-primary-back {
+  background-color: #ffc20f;
+  width: 100%;
+  font-family: "Conv_futuramediumbt";
+  height: 50px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+  text-align: center;
+  height: 35px !important;
+  font-size: 14px !important;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+}
+
+.logistic-management-section .lo-management-header .action-side-right {
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 240px;
+}
+
+.logistic-management-section .lo-management-header .action-side-right .add-product {
+  width: 100%;
+}
+
+.logistic-management-section .admin-search-logistic .btn-save-div {
+  padding-bottom: 16px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.logistic-management-section .admin-search-logistic .btn-save-div .btn-save.btn-save.btn-add-user {
+  max-width: 100px;
+}
+
+.logistic-management-section .logistic-table-admin-body {
+  margin: 0 0 60px 0;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-tbl-lbl-amount {
+  text-align: left !important;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-tbl-lbl-amount .dollar-color-text {
+  color: #ffc20f !important;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-appointment-action .btns-action .btn-delete-action,
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-appointment-action .btns-action .btn-edit-action {
+  min-width: 58px;
+  text-align: center !important;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .logistic-appointment-action .center-action-lm {
+  text-align: center;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .box-log-order-bx-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .box-log-order-bx-root .text-content-box-log-order-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 25px 0 0;
+  min-width: 140px;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .box-log-order-bx-root .text-content-box-log-order-bx .block {
+  width: 100%;
+}
+
+.logistic-management-section .logistic-table-admin-body tbody tr td .box-log-order-bx-root .product-service-mgmt {
+  min-width: 376px;
+}
+
+.modal-lm-user .custom-control-root-div .custom-radio {
+  width: 100%;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.modal-lm-user .modal-dialog .modal-content .modal-request-quote.modal-footer .btns-request-quotation .btn-in-activate {
+  min-width: 300px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pagination-datatatable-bottom {
+  padding: 0 15px;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: calc(100% - 295px);
+  z-index: 9999;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-bottom-inner {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  background: #fdfdfd;
+  -webkit-box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list {
+  padding: 13px 20px;
+  margin: 0;
+  position: relative;
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li {
+  margin: 0 5px;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #8e98a0;
+  padding: 3px 15px 1px 10px;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li p .bold-span {
+  color: #071c2e;
+  font-family: "Conv_Futura Bold";
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li a.btn-pg-round {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffc20f;
+  color: #fff;
+  border-radius: 100px;
+  text-decoration: none;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li a.btn-pg-round.btn-pg-round-transparent {
+  background-color: transparent;
+  color: #666;
+}
+
+.pagination-datatatable-bottom .pagination-datatatable-list li a.btn-pg-round.btn-disabled {
+  background-color: #cbcbcb;
+}
+
+.logistic-order-tracking-section {
+  min-height: calc(100vh - 93px);
+}
+
+.logistic-info-section .logistic-table-info .showcase-table-info ul li a.text-italic {
+  font-style: italic;
+}
+
+.logistic-info-section .logistic-table-info .showcase-table-info ul li a.text-underline {
+  text-decoration: underline;
+}
+
+.logistic-info-section .logistic-om-table-admin-body {
+  margin: 0 0 60px 0;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-tbl-lbl-amount {
+  text-align: left !important;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-tbl-lbl-amount .dollar-color-text {
+  color: #ffc20f !important;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-appointment-action .btns-action .btn-delete-action,
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-appointment-action .btns-action .btn-edit-action {
+  min-width: 58px;
+  text-align: center !important;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .logistic-appointment-action .center-action-lm {
+  text-align: center;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .box-log-order-bx-root {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .box-log-order-bx-root .text-content-box-log-order-bx {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 25px 0 0;
+  min-width: 140px;
+  width: 30%;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .box-log-order-bx-root .text-content-box-log-order-bx .block {
+  width: 100%;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .box-log-order-bx-root .product-service-mgmt {
+  min-width: 376px;
+}
+
+.logistic-info-section .logistic-om-table-admin-body tbody tr td .service-input .dollar span {
+  color: #cbcbcb;
+}
+
+.logistic-dash-section {
+  padding: 20px 0 0 0;
+}
+
+.middle-section .middle-inner .logistic-dash-section .page-controller-admin .page-controller-inner .product-chart-box .chart-footer {
+  -webkit-box-orient: initial;
+  -webkit-box-direction: initial;
+      -ms-flex-direction: initial;
+          flex-direction: initial;
+}
+
+.middle-section .middle-inner .logistic-dash-section .page-controller-admin .page-controller-inner .product-chart-box .chart-footer .btn {
+  margin-right: 10px;
+}
+
+.middle-section .middle-inner .logistic-dash-section .page-controller-admin .page-controller-inner .product-chart-box .chart-footer .btn:last-child {
+  margin-right: 0;
+}
+
+.middle-section .middle-inner .logistic-dash-section .page-controller-admin .page-controller-inner .product-chart2 h3 {
+  margin: 0 0 25px 0;
+}
+
+.middle-section .middle-inner .plm-section .seller-management-header {
+  border: none;
+  padding: 0 10px;
+}
+
+.middle-section .middle-inner .plm-section .admin-search-seller {
+  padding-top: 0;
+}
+
+.middle-section .middle-inner .plm-section .admin-search-seller .btn-new-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffc20f;
+  letter-spacing: 0;
+  text-align: right;
+  font-family: "Conv_futuramediumbt";
+  text-decoration: none;
+  min-height: 35px;
+}
+
+.middle-section .middle-inner .plm-section.table-root .table-admin tbody tr td .text-center-align {
+  text-align: center;
+}
+
+.middle-section .middle-inner .plm-section.table-root .table-admin tbody tr td .text-center-align p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li {
+    width: 33%;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li:last-child {
+    width: 17.2%;
+  }
+}
+
+@media (max-width: 767px) {
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side a {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side {
+    margin: 0 0 15px 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box {
+    margin-left: 0;
+    width: 100%;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box:first-child {
+    margin-left: 0;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li.done::after {
+    top: 0;
+    left: -38px;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .action-side {
+    padding: 10px 0 0 0;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .title ul li a {
+    font-size: 14px !important;
+    padding: 10px 5px !important;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul li {
+    padding: 0;
+    border-left: 0 solid #cbcbcb;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul li:first-child {
+    padding: 0 10px 0 0;
+  }
+  .modal.modal-lm-user .modal-dialog .modal-content .modal-body .add-payment-card h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 10px;
+  }
+  .pagination-datatatable-bottom {
+    width: 100%;
+  }
+  .modal-lm-user .modal-dialog .modal-content .modal-request-quote.modal-footer .btns-request-quotation .btn-in-activate {
+    min-width: auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side {
+    margin: 0 0 15px 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .action-side .list-action-link-side .list-action-link-side-box:first-child {
+    margin-left: 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo {
+    padding: 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item {
+    padding: 0 0 0 25px;
+    font-size: 14px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item a {
+    font-size: 14px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item::before {
+    padding: 7px 0 0 3px;
+  }
+  .middle-section .middle-inner .logistic-management-section .logistic-management-header .breadcrumb-section.breadcrumb-lo nav ol.breadcrumb li.breadcrumb-item:first-child {
+    padding-left: 0;
+  }
+  .middle-section .middle-inner .logistic-management-section .lo-management-header .title {
+    width: auto;
+  }
+  .middle-section .middle-inner .logistic-management-section .lo-management-header .action-side-right {
+    max-width: 210px;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .action-side {
+    padding: 10px 0 0 0;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .title {
+    margin: 0 0 -13px 0;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .title ul {
+    border-bottom: 0 solid #dee2e6;
+  }
+  .middle-section .middle-inner .logistic-info-section .seller-info-header .title ul li a {
+    font-size: 14px !important;
+    padding: 10px 5px !important;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading h2 {
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-bottom: 0;
+    padding-top: 10px;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul li {
+    padding: 0;
+    border-left: 0 solid #cbcbcb;
+  }
+  .middle-section .middle-inner .logistic-info-section .store-seller-heading ul li:first-child {
+    padding: 0 10px 0 0;
+  }
+  .pagination-datatatable-bottom {
+    width: 100%;
+  }
+  .modal-lm-user .modal-dialog .modal-content .modal-request-quote.modal-footer .btns-request-quotation .btn-in-activate {
+    min-width: 210px;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li:last-child p {
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .ld-order-track-status-root ul li .btn-track {
+    padding: 5px 8px;
+  }
+  .middle-section .middle-inner .logistic-order-tracking-section .order-body .create-product-note p {
+    line-height: 20px;
+  }
+}
+/*# sourceMappingURL=logistic-admin-dashboard.css.map */
